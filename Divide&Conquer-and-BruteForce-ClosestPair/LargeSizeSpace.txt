@@ -1,0 +1,20 @@
+============ Evidence the programs work when the size of space is increased ============
+SPACE_WIDTH = 400, SPACE_HEIGHT = 160, and MAX_BOMBS_PER_DROP = 40.
+srand(0)
+QuiteMode
+
+-> BruteForce
+Print final stats:
+bombsDestroyed = 3019
+spaceShipsDestroyed = 105
+survivors = 55
+start time: Sun Mar 19 01:29:04 2017
+end time: Sun Mar 19 01:36:48 2017
+
+-> Divide and conquer
+Print final stats:
+bombsDestroyed = 3019
+spaceShipsDestroyed = 105
+survivors = 55
+start time: Sun Mar 19 01:38:27 2017
+end time: Sun Mar 19 01:40:05 2017

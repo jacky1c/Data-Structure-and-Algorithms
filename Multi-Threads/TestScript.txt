@@ -1,0 +1,3207 @@
+================ input file 2=======================
+Please enter input file name for matrix a: 
+a1.txt
+Please enter input file name for matrix b: 
+b1.txt
+
+Matrix a(2*3) is
+1 2 3 
+4 5 6 
+
+Matrix b(3*2) is
+7 8 
+9 10 
+11 12 
+
+Launching threads...
+Child thread #0: calculates row0 of a and col0 of b
+Child thread #3: calculates row1 of a and col1 of b
+Child thread #0: 1*7
+Child thread #1: calculates row0 of a and col1 of b
+Child thread #3: 4*8
+Child thread #2: calculates row1 of a and col0 of b
+Child thread #0: 2*9
+Child thread #1: 1*8
+Child thread #3: 5*10
+Child thread #2: 4*7
+Child thread #0: 3*11
+Child thread #1: 2*10
+Child thread #3: 6*12
+Child thread #2: 5*9
+Child thread #0: done
+Child thread #1: 3*12
+Child thread #3: done
+Child thread #2: 6*11
+Child thread #1: done
+Child thread #2: done
+
+Matrix c(2*2) is
+58 64 
+139 154 
+
+================ input file 2=======================
+Please enter input file name for matrix a: 
+a2.txt
+Please enter input file name for matrix b: 
+b2.txt
+
+Matrix a(9*11) is
+41 91 83 3 82 73 5 40 49 1 84 
+7 69 45 3 28 100 48 61 25 32 58 
+14 12 76 71 29 42 43 30 28 35 99 
+46 63 72 61 76 45 71 0 32 70 48 
+56 13 57 45 9 24 31 44 77 62 13 
+4 79 49 69 53 91 15 62 21 88 66 
+28 4 32 97 1 56 28 30 25 52 71 
+9 23 96 35 35 62 86 76 27 30 7 
+51 99 74 73 16 0 72 21 85 32 5 
+
+Matrix b(11*20) is
+75 16 98 57 74 85 100 12 79 12 21 37 27 4 79 13 5 71 63 9 
+66 27 52 18 17 53 62 97 73 80 52 51 49 31 28 3 70 75 16 98 
+57 74 85 100 12 79 12 36 35 9 62 56 38 22 76 33 65 99 43 59 
+39 40 75 8 19 31 81 9 95 80 70 3 76 88 58 45 38 34 1 47 
+44 1 29 41 23 9 44 55 57 18 75 40 93 90 90 36 95 92 56 0 
+8 39 98 67 25 6 6 44 81 68 31 21 37 27 4 79 13 5 71 63 
+9 66 18 17 53 62 97 73 80 52 51 49 31 28 3 70 75 16 98 57 
+74 85 100 12 79 12 36 35 9 62 56 38 22 76 33 65 99 43 59 39 
+40 75 8 19 31 81 9 95 80 70 3 76 88 58 45 38 34 1 47 44 
+1 29 41 23 9 44 55 57 18 75 40 93 90 90 36 95 92 56 0 8 
+39 98 67 25 6 6 44 81 68 31 81 9 95 80 70 3 76 88 58 45 
+
+Launching threads...
+Child thread #2: calculates row0 of a and col2 of b
+Child thread #3: calculates row0 of a and col3 of b
+Child thread #13: calculates row0 of a and col13 of b
+Child thread #14: calculates row0 of a and col14 of b
+Child thread #1: calculates row0 of a and col1 of b
+Child thread #0: calculates row0 of a and col0 of b
+Child thread #2: 41*98
+Child thread #15: calculates row0 of a and col15 of b
+Child thread #4: calculates row0 of a and col4 of b
+Child thread #5: calculates row0 of a and col5 of b
+Child thread #8: calculates row0 of a and col8 of b
+Child thread #3: 41*57
+Child thread #17: calculates row0 of a and col17 of b
+Child thread #9: calculates row0 of a and col9 of b
+Child thread #18: calculates row0 of a and col18 of b
+Child thread #11: calculates row0 of a and col11 of b
+Child thread #13: 41*4
+Child thread #6: calculates row0 of a and col6 of b
+Child thread #19: calculates row0 of a and col19 of b
+Child thread #14: 41*79
+Child thread #7: calculates row0 of a and col7 of b
+Child thread #20: calculates row1 of a and col0 of b
+Child thread #10: calculates row0 of a and col10 of b
+Child thread #1: 41*16
+Child thread #21: calculates row1 of a and col1 of b
+Child thread #12: calculates row0 of a and col12 of b
+Child thread #0: 41*75
+Child thread #16: calculates row0 of a and col16 of b
+Child thread #22: calculates row1 of a and col2 of b
+Child thread #23: calculates row1 of a and col3 of b
+Child thread #2: 91*52
+Child thread #24: calculates row1 of a and col4 of b
+Child thread #25: calculates row1 of a and col5 of b
+Child thread #26: calculates row1 of a and col6 of b
+Child thread #27: calculates row1 of a and col7 of b
+Child thread #28: calculates row1 of a and col8 of b
+Child thread #29: calculates row1 of a and col9 of b
+Child thread #30: calculates row1 of a and col10 of b
+Child thread #31: calculates row1 of a and col11 of b
+Child thread #32: calculates row1 of a and col12 of b
+Child thread #33: calculates row1 of a and col13 of b
+Child thread #34: calculates row1 of a and col14 of b
+Child thread #35: calculates row1 of a and col15 of b
+Child thread #36: calculates row1 of a and col16 of b
+Child thread #37: calculates row1 of a and col17 of b
+Child thread #39: calculates row1 of a and col19 of b
+Child thread #41: calculates row2 of a and col1 of b
+Child thread #40: calculates row2 of a and col0 of b
+Child thread #38: calculates row1 of a and col18 of b
+Child thread #42: calculates row2 of a and col2 of b
+Child thread #43: calculates row2 of a and col3 of b
+Child thread #44: calculates row2 of a and col4 of b
+Child thread #46: calculates row2 of a and col6 of b
+Child thread #45: calculates row2 of a and col5 of b
+Child thread #47: calculates row2 of a and col7 of b
+Child thread #48: calculates row2 of a and col8 of b
+Child thread #49: calculates row2 of a and col9 of b
+Child thread #50: calculates row2 of a and col10 of b
+Child thread #51: calculates row2 of a and col11 of b
+Child thread #52: calculates row2 of a and col12 of b
+Child thread #53: calculates row2 of a and col13 of b
+Child thread #54: calculates row2 of a and col14 of b
+Child thread #55: calculates row2 of a and col15 of b
+Child thread #56: calculates row2 of a and col16 of b
+Child thread #57: calculates row2 of a and col17 of b
+Child thread #59: calculates row2 of a and col19 of b
+Child thread #58: calculates row2 of a and col18 of b
+Child thread #60: calculates row3 of a and col0 of b
+Child thread #61: calculates row3 of a and col1 of b
+Child thread #62: calculates row3 of a and col2 of b
+Child thread #63: calculates row3 of a and col3 of b
+Child thread #64: calculates row3 of a and col4 of b
+Child thread #66: calculates row3 of a and col6 of b
+Child thread #65: calculates row3 of a and col5 of b
+Child thread #68: calculates row3 of a and col8 of b
+Child thread #67: calculates row3 of a and col7 of b
+Child thread #69: calculates row3 of a and col9 of b
+Child thread #70: calculates row3 of a and col10 of b
+Child thread #71: calculates row3 of a and col11 of b
+Child thread #72: calculates row3 of a and col12 of b
+Child thread #73: calculates row3 of a and col13 of b
+Child thread #74: calculates row3 of a and col14 of b
+Child thread #75: calculates row3 of a and col15 of b
+Child thread #76: calculates row3 of a and col16 of b
+Child thread #77: calculates row3 of a and col17 of b
+Child thread #78: calculates row3 of a and col18 of b
+Child thread #79: calculates row3 of a and col19 of b
+Child thread #80: calculates row4 of a and col0 of b
+Child thread #81: calculates row4 of a and col1 of b
+Child thread #82: calculates row4 of a and col2 of b
+Child thread #83: calculates row4 of a and col3 of b
+Child thread #84: calculates row4 of a and col4 of b
+Child thread #85: calculates row4 of a and col5 of b
+Child thread #86: calculates row4 of a and col6 of b
+Child thread #87: calculates row4 of a and col7 of b
+Child thread #88: calculates row4 of a and col8 of b
+Child thread #89: calculates row4 of a and col9 of b
+Child thread #91: calculates row4 of a and col11 of b
+Child thread #90: calculates row4 of a and col10 of b
+Child thread #93: calculates row4 of a and col13 of b
+Child thread #92: calculates row4 of a and col12 of b
+Child thread #94: calculates row4 of a and col14 of b
+Child thread #96: calculates row4 of a and col16 of b
+Child thread #97: calculates row4 of a and col17 of b
+Child thread #95: calculates row4 of a and col15 of b
+Child thread #98: calculates row4 of a and col18 of b
+Child thread #99: calculates row4 of a and col19 of b
+Child thread #100: calculates row5 of a and col0 of b
+Child thread #101: calculates row5 of a and col1 of b
+Child thread #102: calculates row5 of a and col2 of b
+Child thread #103: calculates row5 of a and col3 of b
+Child thread #104: calculates row5 of a and col4 of b
+Child thread #105: calculates row5 of a and col5 of b
+Child thread #106: calculates row5 of a and col6 of b
+Child thread #107: calculates row5 of a and col7 of b
+Child thread #108: calculates row5 of a and col8 of b
+Child thread #110: calculates row5 of a and col10 of b
+Child thread #109: calculates row5 of a and col9 of b
+Child thread #111: calculates row5 of a and col11 of b
+Child thread #112: calculates row5 of a and col12 of b
+Child thread #113: calculates row5 of a and col13 of b
+Child thread #115: calculates row5 of a and col15 of b
+Child thread #114: calculates row5 of a and col14 of b
+Child thread #117: calculates row5 of a and col17 of b
+Child thread #116: calculates row5 of a and col16 of b
+Child thread #118: calculates row5 of a and col18 of b
+Child thread #119: calculates row5 of a and col19 of b
+Child thread #120: calculates row6 of a and col0 of b
+Child thread #121: calculates row6 of a and col1 of b
+Child thread #122: calculates row6 of a and col2 of b
+Child thread #123: calculates row6 of a and col3 of b
+Child thread #124: calculates row6 of a and col4 of b
+Child thread #125: calculates row6 of a and col5 of b
+Child thread #126: calculates row6 of a and col6 of b
+Child thread #127: calculates row6 of a and col7 of b
+Child thread #128: calculates row6 of a and col8 of b
+Child thread #129: calculates row6 of a and col9 of b
+Child thread #130: calculates row6 of a and col10 of b
+Child thread #131: calculates row6 of a and col11 of b
+Child thread #132: calculates row6 of a and col12 of b
+Child thread #134: calculates row6 of a and col14 of b
+Child thread #133: calculates row6 of a and col13 of b
+Child thread #136: calculates row6 of a and col16 of b
+Child thread #135: calculates row6 of a and col15 of b
+Child thread #137: calculates row6 of a and col17 of b
+Child thread #138: calculates row6 of a and col18 of b
+Child thread #139: calculates row6 of a and col19 of b
+Child thread #142: calculates row7 of a and col2 of b
+Child thread #141: calculates row7 of a and col1 of b
+Child thread #143: calculates row7 of a and col3 of b
+Child thread #140: calculates row7 of a and col0 of b
+Child thread #144: calculates row7 of a and col4 of b
+Child thread #145: calculates row7 of a and col5 of b
+Child thread #15: 41*13
+Child thread #146: calculates row7 of a and col6 of b
+Child thread #4: 41*74
+Child thread #148: calculates row7 of a and col8 of b
+Child thread #147: calculates row7 of a and col7 of b
+Child thread #5: 41*85
+Child thread #150: calculates row7 of a and col10 of b
+Child thread #8: 41*79
+Child thread #149: calculates row7 of a and col9 of b
+Child thread #3: 91*18
+Child thread #17: 41*71
+Child thread #151: calculates row7 of a and col11 of b
+Child thread #9: 41*12
+Child thread #18: 41*63
+Child thread #11: 41*37
+Child thread #152: calculates row7 of a and col12 of b
+Child thread #13: 91*31
+Child thread #153: calculates row7 of a and col13 of b
+Child thread #6: 41*100
+Child thread #19: 41*9
+Child thread #14: 91*28
+Child thread #154: calculates row7 of a and col14 of b
+Child thread #7: 41*12
+Child thread #155: calculates row7 of a and col15 of b
+Child thread #20: 7*75
+Child thread #10: 41*21
+Child thread #1: 91*27
+Child thread #156: calculates row7 of a and col16 of b
+Child thread #21: 7*16
+Child thread #12: 41*27
+Child thread #157: calculates row7 of a and col17 of b
+Child thread #0: 91*66
+Child thread #158: calculates row7 of a and col18 of b
+Child thread #16: 41*5
+Child thread #22: 7*98
+Child thread #23: 7*57
+Child thread #159: calculates row7 of a and col19 of b
+Child thread #2: 83*85
+Child thread #160: calculates row8 of a and col0 of b
+Child thread #24: 7*74
+Child thread #25: 7*85
+Child thread #26: 7*100
+Child thread #161: calculates row8 of a and col1 of b
+Child thread #27: 7*12
+Child thread #162: calculates row8 of a and col2 of b
+Child thread #28: 7*79
+Child thread #29: 7*12
+Child thread #30: 7*21
+Child thread #31: 7*37
+Child thread #32: 7*27
+Child thread #33: 7*4
+Child thread #34: 7*79
+Child thread #35: 7*13
+Child thread #36: 7*5
+Child thread #37: 7*71
+Child thread #39: 7*9
+Child thread #41: 14*16
+Child thread #40: 14*75
+Child thread #38: 7*63
+Child thread #42: 14*98
+Child thread #43: 14*57
+Child thread #44: 14*74
+Child thread #46: 14*100
+Child thread #45: 14*85
+Child thread #47: 14*12
+Child thread #164: calculates row8 of a and col4 of b
+Child thread #48: 14*79
+Child thread #163: calculates row8 of a and col3 of b
+Child thread #49: 14*12
+Child thread #50: 14*21
+Child thread #165: calculates row8 of a and col5 of b
+Child thread #51: 14*37
+Child thread #52: 14*27
+Child thread #53: 14*4
+Child thread #166: calculates row8 of a and col6 of b
+Child thread #54: 14*79
+Child thread #167: calculates row8 of a and col7 of b
+Child thread #55: 14*13
+Child thread #56: 14*5
+Child thread #168: calculates row8 of a and col8 of b
+Child thread #57: 14*71
+Child thread #169: calculates row8 of a and col9 of b
+Child thread #59: 14*9
+Child thread #58: 14*63
+Child thread #60: 46*75
+Child thread #170: calculates row8 of a and col10 of b
+Child thread #61: 46*16
+Child thread #171: calculates row8 of a and col11 of b
+Child thread #62: 46*98
+Child thread #63: 46*57
+Child thread #64: 46*74
+Child thread #66: 46*100
+Child thread #172: calculates row8 of a and col12 of b
+Child thread #65: 46*85
+Child thread #173: calculates row8 of a and col13 of b
+Child thread #174: calculates row8 of a and col14 of b
+Child thread #68: 46*79
+Child thread #67: 46*12
+Child thread #175: calculates row8 of a and col15 of b
+Child thread #69: 46*12
+Child thread #70: 46*21
+Child thread #176: calculates row8 of a and col16 of b
+Child thread #71: 46*37
+Child thread #178: calculates row8 of a and col18 of b
+Child thread #72: 46*27
+Child thread #177: calculates row8 of a and col17 of b
+Child thread #73: 46*4
+Child thread #179: calculates row8 of a and col19 of b
+Child thread #74: 46*79
+Child thread #75: 46*13
+Child thread #76: 46*5
+Child thread #77: 46*71
+Child thread #78: 46*63
+Child thread #79: 46*9
+Child thread #80: 56*75
+Child thread #81: 56*16
+Child thread #82: 56*98
+Child thread #83: 56*57
+Child thread #84: 56*74
+Child thread #85: 56*85
+Child thread #86: 56*100
+Child thread #87: 56*12
+Child thread #88: 56*79
+Child thread #89: 56*12
+Child thread #91: 56*37
+Child thread #90: 56*21
+Child thread #93: 56*4
+Child thread #92: 56*27
+Child thread #94: 56*79
+Child thread #96: 56*5
+Child thread #97: 56*71
+Child thread #95: 56*13
+Child thread #98: 56*63
+Child thread #99: 56*9
+Child thread #100: 4*75
+Child thread #101: 4*16
+Child thread #102: 4*98
+Child thread #103: 4*57
+Child thread #104: 4*74
+Child thread #105: 4*85
+Child thread #106: 4*100
+Child thread #107: 4*12
+Child thread #108: 4*79
+Child thread #110: 4*21
+Child thread #109: 4*12
+Child thread #111: 4*37
+Child thread #112: 4*27
+Child thread #113: 4*4
+Child thread #115: 4*13
+Child thread #114: 4*79
+Child thread #117: 4*71
+Child thread #116: 4*5
+Child thread #118: 4*63
+Child thread #119: 4*9
+Child thread #120: 28*75
+Child thread #121: 28*16
+Child thread #122: 28*98
+Child thread #123: 28*57
+Child thread #124: 28*74
+Child thread #125: 28*85
+Child thread #126: 28*100
+Child thread #127: 28*12
+Child thread #128: 28*79
+Child thread #129: 28*12
+Child thread #130: 28*21
+Child thread #131: 28*37
+Child thread #132: 28*27
+Child thread #134: 28*79
+Child thread #133: 28*4
+Child thread #136: 28*5
+Child thread #135: 28*13
+Child thread #137: 28*71
+Child thread #138: 28*63
+Child thread #139: 28*9
+Child thread #142: 9*98
+Child thread #141: 9*16
+Child thread #143: 9*57
+Child thread #140: 9*75
+Child thread #144: 9*74
+Child thread #145: 9*85
+Child thread #15: 91*3
+Child thread #146: 9*100
+Child thread #4: 91*17
+Child thread #148: 9*79
+Child thread #147: 9*12
+Child thread #5: 91*53
+Child thread #150: 9*21
+Child thread #8: 91*73
+Child thread #149: 9*12
+Child thread #3: 83*100
+Child thread #17: 91*75
+Child thread #151: 9*37
+Child thread #9: 91*80
+Child thread #18: 91*16
+Child thread #11: 91*51
+Child thread #152: 9*27
+Child thread #13: 83*22
+Child thread #153: 9*4
+Child thread #6: 91*62
+Child thread #19: 91*98
+Child thread #14: 83*76
+Child thread #154: 9*79
+Child thread #7: 91*97
+Child thread #155: 9*13
+Child thread #20: 69*66
+Child thread #10: 91*52
+Child thread #1: 83*74
+Child thread #156: 9*5
+Child thread #21: 69*27
+Child thread #12: 91*49
+Child thread #157: 9*71
+Child thread #0: 83*57
+Child thread #158: 9*63
+Child thread #16: 91*70
+Child thread #22: 69*52
+Child thread #23: 69*18
+Child thread #159: 9*9
+Child thread #2: 3*75
+Child thread #160: 51*75
+Child thread #24: 69*17
+Child thread #25: 69*53
+Child thread #26: 69*62
+Child thread #161: 51*16
+Child thread #27: 69*97
+Child thread #162: 51*98
+Child thread #28: 69*73
+Child thread #29: 69*80
+Child thread #30: 69*52
+Child thread #31: 69*51
+Child thread #32: 69*49
+Child thread #33: 69*31
+Child thread #34: 69*28
+Child thread #35: 69*3
+Child thread #36: 69*70
+Child thread #37: 69*75
+Child thread #39: 69*98
+Child thread #41: 12*27
+Child thread #40: 12*66
+Child thread #38: 69*16
+Child thread #42: 12*52
+Child thread #43: 12*18
+Child thread #44: 12*17
+Child thread #46: 12*62
+Child thread #45: 12*53
+Child thread #47: 12*97
+Child thread #164: 51*74
+Child thread #48: 12*73
+Child thread #163: 51*57
+Child thread #49: 12*80
+Child thread #50: 12*52
+Child thread #165: 51*85
+Child thread #51: 12*51
+Child thread #52: 12*49
+Child thread #53: 12*31
+Child thread #166: 51*100
+Child thread #54: 12*28
+Child thread #167: 51*12
+Child thread #55: 12*3
+Child thread #56: 12*70
+Child thread #168: 51*79
+Child thread #57: 12*75
+Child thread #169: 51*12
+Child thread #59: 12*98
+Child thread #58: 12*16
+Child thread #60: 63*66
+Child thread #170: 51*21
+Child thread #61: 63*27
+Child thread #171: 51*37
+Child thread #62: 63*52
+Child thread #63: 63*18
+Child thread #64: 63*17
+Child thread #66: 63*62
+Child thread #172: 51*27
+Child thread #65: 63*53
+Child thread #173: 51*4
+Child thread #174: 51*79
+Child thread #68: 63*73
+Child thread #67: 63*97
+Child thread #175: 51*13
+Child thread #69: 63*80
+Child thread #70: 63*52
+Child thread #176: 51*5
+Child thread #71: 63*51
+Child thread #178: 51*63
+Child thread #72: 63*49
+Child thread #177: 51*71
+Child thread #73: 63*31
+Child thread #179: 51*9
+Child thread #74: 63*28
+Child thread #75: 63*3
+Child thread #76: 63*70
+Child thread #77: 63*75
+Child thread #78: 63*16
+Child thread #79: 63*98
+Child thread #80: 13*66
+Child thread #81: 13*27
+Child thread #82: 13*52
+Child thread #83: 13*18
+Child thread #84: 13*17
+Child thread #85: 13*53
+Child thread #86: 13*62
+Child thread #87: 13*97
+Child thread #88: 13*73
+Child thread #89: 13*80
+Child thread #91: 13*51
+Child thread #90: 13*52
+Child thread #93: 13*31
+Child thread #92: 13*49
+Child thread #94: 13*28
+Child thread #96: 13*70
+Child thread #97: 13*75
+Child thread #95: 13*3
+Child thread #98: 13*16
+Child thread #99: 13*98
+Child thread #100: 79*66
+Child thread #101: 79*27
+Child thread #102: 79*52
+Child thread #103: 79*18
+Child thread #104: 79*17
+Child thread #105: 79*53
+Child thread #106: 79*62
+Child thread #107: 79*97
+Child thread #108: 79*73
+Child thread #110: 79*52
+Child thread #109: 79*80
+Child thread #111: 79*51
+Child thread #112: 79*49
+Child thread #113: 79*31
+Child thread #115: 79*3
+Child thread #114: 79*28
+Child thread #117: 79*75
+Child thread #116: 79*70
+Child thread #118: 79*16
+Child thread #119: 79*98
+Child thread #120: 4*66
+Child thread #121: 4*27
+Child thread #122: 4*52
+Child thread #123: 4*18
+Child thread #124: 4*17
+Child thread #125: 4*53
+Child thread #126: 4*62
+Child thread #127: 4*97
+Child thread #128: 4*73
+Child thread #129: 4*80
+Child thread #130: 4*52
+Child thread #131: 4*51
+Child thread #132: 4*49
+Child thread #134: 4*28
+Child thread #133: 4*31
+Child thread #136: 4*70
+Child thread #135: 4*3
+Child thread #137: 4*75
+Child thread #138: 4*16
+Child thread #139: 4*98
+Child thread #142: 23*52
+Child thread #141: 23*27
+Child thread #143: 23*18
+Child thread #140: 23*66
+Child thread #144: 23*17
+Child thread #145: 23*53
+Child thread #15: 83*33
+Child thread #146: 23*62
+Child thread #4: 83*12
+Child thread #148: 23*73
+Child thread #147: 23*97
+Child thread #5: 83*79
+Child thread #150: 23*52
+Child thread #8: 83*35
+Child thread #149: 23*80
+Child thread #3: 3*8
+Child thread #17: 83*99
+Child thread #151: 23*51
+Child thread #9: 83*9
+Child thread #18: 83*43
+Child thread #11: 83*56
+Child thread #152: 23*49
+Child thread #13: 3*88
+Child thread #153: 23*31
+Child thread #6: 83*12
+Child thread #19: 83*59
+Child thread #14: 3*58
+Child thread #154: 23*28
+Child thread #7: 83*36
+Child thread #155: 23*3
+Child thread #20: 45*57
+Child thread #10: 83*62
+Child thread #1: 3*40
+Child thread #156: 23*70
+Child thread #21: 45*74
+Child thread #12: 83*38
+Child thread #157: 23*75
+Child thread #0: 3*39
+Child thread #158: 23*16
+Child thread #16: 83*65
+Child thread #22: 45*85
+Child thread #23: 45*100
+Child thread #159: 23*98
+Child thread #2: 82*29
+Child thread #160: 99*66
+Child thread #24: 45*12
+Child thread #25: 45*79
+Child thread #26: 45*12
+Child thread #161: 99*27
+Child thread #27: 45*36
+Child thread #162: 99*52
+Child thread #28: 45*35
+Child thread #29: 45*9
+Child thread #30: 45*62
+Child thread #31: 45*56
+Child thread #32: 45*38
+Child thread #33: 45*22
+Child thread #34: 45*76
+Child thread #35: 45*33
+Child thread #36: 45*65
+Child thread #37: 45*99
+Child thread #39: 45*59
+Child thread #41: 76*74
+Child thread #40: 76*57
+Child thread #38: 45*43
+Child thread #42: 76*85
+Child thread #43: 76*100
+Child thread #44: 76*12
+Child thread #46: 76*12
+Child thread #45: 76*79
+Child thread #47: 76*36
+Child thread #164: 99*17
+Child thread #48: 76*35
+Child thread #163: 99*18
+Child thread #49: 76*9
+Child thread #50: 76*62
+Child thread #165: 99*53
+Child thread #51: 76*56
+Child thread #52: 76*38
+Child thread #53: 76*22
+Child thread #166: 99*62
+Child thread #54: 76*76
+Child thread #167: 99*97
+Child thread #55: 76*33
+Child thread #56: 76*65
+Child thread #168: 99*73
+Child thread #57: 76*99
+Child thread #169: 99*80
+Child thread #59: 76*59
+Child thread #58: 76*43
+Child thread #60: 72*57
+Child thread #170: 99*52
+Child thread #61: 72*74
+Child thread #171: 99*51
+Child thread #62: 72*85
+Child thread #63: 72*100
+Child thread #64: 72*12
+Child thread #66: 72*12
+Child thread #172: 99*49
+Child thread #65: 72*79
+Child thread #173: 99*31
+Child thread #174: 99*28
+Child thread #68: 72*35
+Child thread #67: 72*36
+Child thread #175: 99*3
+Child thread #69: 72*9
+Child thread #70: 72*62
+Child thread #176: 99*70
+Child thread #71: 72*56
+Child thread #178: 99*16
+Child thread #72: 72*38
+Child thread #177: 99*75
+Child thread #73: 72*22
+Child thread #179: 99*98
+Child thread #74: 72*76
+Child thread #75: 72*33
+Child thread #76: 72*65
+Child thread #77: 72*99
+Child thread #78: 72*43
+Child thread #79: 72*59
+Child thread #80: 57*57
+Child thread #81: 57*74
+Child thread #82: 57*85
+Child thread #83: 57*100
+Child thread #84: 57*12
+Child thread #85: 57*79
+Child thread #86: 57*12
+Child thread #87: 57*36
+Child thread #88: 57*35
+Child thread #89: 57*9
+Child thread #91: 57*56
+Child thread #90: 57*62
+Child thread #93: 57*22
+Child thread #92: 57*38
+Child thread #94: 57*76
+Child thread #96: 57*65
+Child thread #97: 57*99
+Child thread #95: 57*33
+Child thread #98: 57*43
+Child thread #99: 57*59
+Child thread #100: 49*57
+Child thread #101: 49*74
+Child thread #102: 49*85
+Child thread #103: 49*100
+Child thread #104: 49*12
+Child thread #105: 49*79
+Child thread #106: 49*12
+Child thread #107: 49*36
+Child thread #108: 49*35
+Child thread #110: 49*62
+Child thread #109: 49*9
+Child thread #111: 49*56
+Child thread #112: 49*38
+Child thread #113: 49*22
+Child thread #115: 49*33
+Child thread #114: 49*76
+Child thread #117: 49*99
+Child thread #116: 49*65
+Child thread #118: 49*43
+Child thread #119: 49*59
+Child thread #120: 32*57
+Child thread #121: 32*74
+Child thread #122: 32*85
+Child thread #123: 32*100
+Child thread #124: 32*12
+Child thread #125: 32*79
+Child thread #126: 32*12
+Child thread #127: 32*36
+Child thread #128: 32*35
+Child thread #129: 32*9
+Child thread #130: 32*62
+Child thread #131: 32*56
+Child thread #132: 32*38
+Child thread #134: 32*76
+Child thread #133: 32*22
+Child thread #136: 32*65
+Child thread #135: 32*33
+Child thread #137: 32*99
+Child thread #138: 32*43
+Child thread #139: 32*59
+Child thread #142: 96*85
+Child thread #141: 96*74
+Child thread #143: 96*100
+Child thread #140: 96*57
+Child thread #144: 96*12
+Child thread #145: 96*79
+Child thread #15: 3*45
+Child thread #146: 96*12
+Child thread #4: 3*19
+Child thread #148: 96*35
+Child thread #147: 96*36
+Child thread #5: 3*31
+Child thread #150: 96*62
+Child thread #8: 3*95
+Child thread #149: 96*9
+Child thread #3: 82*41
+Child thread #17: 3*34
+Child thread #151: 96*56
+Child thread #9: 3*80
+Child thread #18: 3*1
+Child thread #11: 3*3
+Child thread #152: 96*38
+Child thread #13: 82*90
+Child thread #153: 96*22
+Child thread #6: 3*81
+Child thread #19: 3*47
+Child thread #14: 82*90
+Child thread #154: 96*76
+Child thread #7: 3*9
+Child thread #155: 96*33
+Child thread #20: 3*39
+Child thread #10: 3*70
+Child thread #1: 82*1
+Child thread #156: 96*65
+Child thread #21: 3*40
+Child thread #12: 3*76
+Child thread #157: 96*99
+Child thread #0: 82*44
+Child thread #158: 96*43
+Child thread #16: 3*38
+Child thread #22: 3*75
+Child thread #23: 3*8
+Child thread #159: 96*59
+Child thread #2: 73*98
+Child thread #160: 74*57
+Child thread #24: 3*19
+Child thread #25: 3*31
+Child thread #26: 3*81
+Child thread #161: 74*74
+Child thread #27: 3*9
+Child thread #162: 74*85
+Child thread #28: 3*95
+Child thread #29: 3*80
+Child thread #30: 3*70
+Child thread #31: 3*3
+Child thread #32: 3*76
+Child thread #33: 3*88
+Child thread #34: 3*58
+Child thread #36: 3*38
+Child thread #35: 3*45
+Child thread #37: 3*34
+Child thread #39: 3*47
+Child thread #41: 71*40
+Child thread #40: 71*39
+Child thread #38: 3*1
+Child thread #42: 71*75
+Child thread #43: 71*8
+Child thread #44: 71*19
+Child thread #46: 71*81
+Child thread #45: 71*31
+Child thread #47: 71*9
+Child thread #164: 74*12
+Child thread #163: 74*100
+Child thread #48: 71*95
+Child thread #49: 71*80
+Child thread #50: 71*70
+Child thread #165: 74*79
+Child thread #51: 71*3
+Child thread #52: 71*76
+Child thread #53: 71*88
+Child thread #166: 74*12
+Child thread #54: 71*58
+Child thread #167: 74*36
+Child thread #55: 71*45
+Child thread #56: 71*38
+Child thread #168: 74*35
+Child thread #57: 71*34
+Child thread #169: 74*9
+Child thread #59: 71*47
+Child thread #58: 71*1
+Child thread #60: 61*39
+Child thread #170: 74*62
+Child thread #61: 61*40
+Child thread #171: 74*56
+Child thread #62: 61*75
+Child thread #63: 61*8
+Child thread #64: 61*19
+Child thread #66: 61*81
+Child thread #172: 74*38
+Child thread #65: 61*31
+Child thread #173: 74*22
+Child thread #174: 74*76
+Child thread #68: 61*95
+Child thread #67: 61*9
+Child thread #175: 74*33
+Child thread #69: 61*80
+Child thread #70: 61*70
+Child thread #176: 74*65
+Child thread #71: 61*3
+Child thread #178: 74*43
+Child thread #72: 61*76
+Child thread #177: 74*99
+Child thread #73: 61*88
+Child thread #179: 74*59
+Child thread #74: 61*58
+Child thread #75: 61*45
+Child thread #76: 61*38
+Child thread #77: 61*34
+Child thread #78: 61*1
+Child thread #79: 61*47
+Child thread #80: 45*39
+Child thread #81: 45*40
+Child thread #82: 45*75
+Child thread #83: 45*8
+Child thread #84: 45*19
+Child thread #85: 45*31
+Child thread #86: 45*81
+Child thread #87: 45*9
+Child thread #88: 45*95
+Child thread #89: 45*80
+Child thread #91: 45*3
+Child thread #90: 45*70
+Child thread #93: 45*88
+Child thread #92: 45*76
+Child thread #94: 45*58
+Child thread #96: 45*38
+Child thread #97: 45*34
+Child thread #95: 45*45
+Child thread #98: 45*1
+Child thread #99: 45*47
+Child thread #100: 69*39
+Child thread #101: 69*40
+Child thread #102: 69*75
+Child thread #103: 69*8
+Child thread #104: 69*19
+Child thread #105: 69*31
+Child thread #106: 69*81
+Child thread #107: 69*9
+Child thread #108: 69*95
+Child thread #110: 69*70
+Child thread #109: 69*80
+Child thread #111: 69*3
+Child thread #112: 69*76
+Child thread #113: 69*88
+Child thread #115: 69*45
+Child thread #114: 69*58
+Child thread #117: 69*34
+Child thread #116: 69*38
+Child thread #118: 69*1
+Child thread #119: 69*47
+Child thread #120: 97*39
+Child thread #121: 97*40
+Child thread #122: 97*75
+Child thread #123: 97*8
+Child thread #124: 97*19
+Child thread #125: 97*31
+Child thread #126: 97*81
+Child thread #127: 97*9
+Child thread #128: 97*95
+Child thread #129: 97*80
+Child thread #130: 97*70
+Child thread #131: 97*3
+Child thread #132: 97*76
+Child thread #134: 97*58
+Child thread #133: 97*88
+Child thread #136: 97*38
+Child thread #135: 97*45
+Child thread #137: 97*34
+Child thread #138: 97*1
+Child thread #139: 97*47
+Child thread #142: 35*75
+Child thread #141: 35*40
+Child thread #143: 35*8
+Child thread #140: 35*39
+Child thread #144: 35*19
+Child thread #145: 35*31
+Child thread #15: 82*36
+Child thread #146: 35*81
+Child thread #4: 82*23
+Child thread #148: 35*95
+Child thread #147: 35*9
+Child thread #5: 82*9
+Child thread #150: 35*70
+Child thread #8: 82*57
+Child thread #149: 35*80
+Child thread #3: 73*67
+Child thread #17: 82*92
+Child thread #151: 35*3
+Child thread #9: 82*18
+Child thread #18: 82*56
+Child thread #11: 82*40
+Child thread #152: 35*76
+Child thread #13: 73*27
+Child thread #153: 35*88
+Child thread #6: 82*44
+Child thread #19: 82*0
+Child thread #14: 73*4
+Child thread #154: 35*58
+Child thread #7: 82*55
+Child thread #155: 35*45
+Child thread #20: 28*44
+Child thread #10: 82*75
+Child thread #1: 73*39
+Child thread #156: 35*38
+Child thread #21: 28*1
+Child thread #12: 82*93
+Child thread #157: 35*34
+Child thread #0: 73*8
+Child thread #158: 35*1
+Child thread #16: 82*95
+Child thread #22: 28*29
+Child thread #23: 28*41
+Child thread #159: 35*47
+Child thread #2: 5*18
+Child thread #160: 73*39
+Child thread #24: 28*23
+Child thread #25: 28*9
+Child thread #26: 28*44
+Child thread #161: 73*40
+Child thread #27: 28*55
+Child thread #162: 73*75
+Child thread #28: 28*57
+Child thread #29: 28*18
+Child thread #30: 28*75
+Child thread #31: 28*40
+Child thread #32: 28*93
+Child thread #33: 28*90
+Child thread #34: 28*90
+Child thread #36: 28*95
+Child thread #35: 28*36
+Child thread #37: 28*92
+Child thread #39: 28*0
+Child thread #41: 29*1
+Child thread #40: 29*44
+Child thread #38: 28*56
+Child thread #42: 29*29
+Child thread #43: 29*41
+Child thread #44: 29*23
+Child thread #46: 29*44
+Child thread #45: 29*9
+Child thread #47: 29*55
+Child thread #164: 73*19
+Child thread #163: 73*8
+Child thread #48: 29*57
+Child thread #49: 29*18
+Child thread #50: 29*75
+Child thread #165: 73*31
+Child thread #51: 29*40
+Child thread #52: 29*93
+Child thread #53: 29*90
+Child thread #166: 73*81
+Child thread #54: 29*90
+Child thread #167: 73*9
+Child thread #55: 29*36
+Child thread #56: 29*95
+Child thread #168: 73*95
+Child thread #57: 29*92
+Child thread #169: 73*80
+Child thread #59: 29*0
+Child thread #58: 29*56
+Child thread #60: 76*44
+Child thread #170: 73*70
+Child thread #61: 76*1
+Child thread #171: 73*3
+Child thread #62: 76*29
+Child thread #63: 76*41
+Child thread #64: 76*23
+Child thread #66: 76*44
+Child thread #172: 73*76
+Child thread #65: 76*9
+Child thread #173: 73*88
+Child thread #174: 73*58
+Child thread #68: 76*57
+Child thread #67: 76*55
+Child thread #175: 73*45
+Child thread #69: 76*18
+Child thread #70: 76*75
+Child thread #176: 73*38
+Child thread #71: 76*40
+Child thread #178: 73*1
+Child thread #72: 76*93
+Child thread #177: 73*34
+Child thread #73: 76*90
+Child thread #179: 73*47
+Child thread #74: 76*90
+Child thread #75: 76*36
+Child thread #76: 76*95
+Child thread #77: 76*92
+Child thread #78: 76*56
+Child thread #79: 76*0
+Child thread #80: 9*44
+Child thread #81: 9*1
+Child thread #82: 9*29
+Child thread #83: 9*41
+Child thread #84: 9*23
+Child thread #85: 9*9
+Child thread #86: 9*44
+Child thread #87: 9*55
+Child thread #88: 9*57
+Child thread #89: 9*18
+Child thread #91: 9*40
+Child thread #90: 9*75
+Child thread #93: 9*90
+Child thread #92: 9*93
+Child thread #94: 9*90
+Child thread #96: 9*95
+Child thread #97: 9*92
+Child thread #95: 9*36
+Child thread #98: 9*56
+Child thread #99: 9*0
+Child thread #100: 53*44
+Child thread #101: 53*1
+Child thread #102: 53*29
+Child thread #103: 53*41
+Child thread #104: 53*23
+Child thread #105: 53*9
+Child thread #106: 53*44
+Child thread #107: 53*55
+Child thread #108: 53*57
+Child thread #110: 53*75
+Child thread #109: 53*18
+Child thread #111: 53*40
+Child thread #112: 53*93
+Child thread #113: 53*90
+Child thread #115: 53*36
+Child thread #114: 53*90
+Child thread #117: 53*92
+Child thread #116: 53*95
+Child thread #118: 53*56
+Child thread #119: 53*0
+Child thread #120: 1*44
+Child thread #121: 1*1
+Child thread #122: 1*29
+Child thread #123: 1*41
+Child thread #124: 1*23
+Child thread #125: 1*9
+Child thread #126: 1*44
+Child thread #127: 1*55
+Child thread #128: 1*57
+Child thread #129: 1*18
+Child thread #130: 1*75
+Child thread #131: 1*40
+Child thread #132: 1*93
+Child thread #134: 1*90
+Child thread #133: 1*90
+Child thread #136: 1*95
+Child thread #135: 1*36
+Child thread #137: 1*92
+Child thread #138: 1*56
+Child thread #139: 1*0
+Child thread #142: 35*29
+Child thread #141: 35*1
+Child thread #143: 35*41
+Child thread #140: 35*44
+Child thread #144: 35*23
+Child thread #145: 35*9
+Child thread #15: 73*79
+Child thread #146: 35*44
+Child thread #4: 73*25
+Child thread #148: 35*57
+Child thread #147: 35*55
+Child thread #5: 73*6
+Child thread #150: 35*75
+Child thread #8: 73*81
+Child thread #149: 35*18
+Child thread #3: 5*17
+Child thread #17: 73*5
+Child thread #151: 35*40
+Child thread #9: 73*68
+Child thread #18: 73*71
+Child thread #11: 73*21
+Child thread #152: 35*93
+Child thread #13: 5*28
+Child thread #153: 35*90
+Child thread #6: 73*6
+Child thread #19: 73*63
+Child thread #14: 5*3
+Child thread #154: 35*90
+Child thread #7: 73*44
+Child thread #155: 35*36
+Child thread #20: 100*8
+Child thread #10: 73*31
+Child thread #1: 5*66
+Child thread #156: 35*95
+Child thread #21: 100*39
+Child thread #12: 73*37
+Child thread #157: 35*92
+Child thread #0: 5*9
+Child thread #158: 35*56
+Child thread #16: 73*13
+Child thread #22: 100*98
+Child thread #23: 100*67
+Child thread #159: 35*0
+Child thread #2: 40*100
+Child thread #160: 16*44
+Child thread #24: 100*25
+Child thread #25: 100*6
+Child thread #26: 100*6
+Child thread #161: 16*1
+Child thread #27: 100*44
+Child thread #162: 16*29
+Child thread #28: 100*81
+Child thread #29: 100*68
+Child thread #30: 100*31
+Child thread #31: 100*21
+Child thread #32: 100*37
+Child thread #33: 100*27
+Child thread #34: 100*4
+Child thread #36: 100*13
+Child thread #35: 100*79
+Child thread #37: 100*5
+Child thread #39: 100*63
+Child thread #41: 42*39
+Child thread #40: 42*8
+Child thread #38: 100*71
+Child thread #42: 42*98
+Child thread #43: 42*67
+Child thread #44: 42*25
+Child thread #46: 42*6
+Child thread #45: 42*6
+Child thread #47: 42*44
+Child thread #164: 16*23
+Child thread #163: 16*41
+Child thread #48: 42*81
+Child thread #49: 42*68
+Child thread #50: 42*31
+Child thread #165: 16*9
+Child thread #51: 42*21
+Child thread #52: 42*37
+Child thread #53: 42*27
+Child thread #166: 16*44
+Child thread #54: 42*4
+Child thread #167: 16*55
+Child thread #55: 42*79
+Child thread #56: 42*13
+Child thread #168: 16*57
+Child thread #57: 42*5
+Child thread #169: 16*18
+Child thread #59: 42*63
+Child thread #58: 42*71
+Child thread #60: 45*8
+Child thread #170: 16*75
+Child thread #61: 45*39
+Child thread #171: 16*40
+Child thread #62: 45*98
+Child thread #63: 45*67
+Child thread #64: 45*25
+Child thread #66: 45*6
+Child thread #172: 16*93
+Child thread #65: 45*6
+Child thread #173: 16*90
+Child thread #174: 16*90
+Child thread #68: 45*81
+Child thread #67: 45*44
+Child thread #175: 16*36
+Child thread #69: 45*68
+Child thread #70: 45*31
+Child thread #176: 16*95
+Child thread #71: 45*21
+Child thread #178: 16*56
+Child thread #72: 45*37
+Child thread #177: 16*92
+Child thread #73: 45*27
+Child thread #179: 16*0
+Child thread #74: 45*4
+Child thread #75: 45*79
+Child thread #76: 45*13
+Child thread #77: 45*5
+Child thread #78: 45*71
+Child thread #79: 45*63
+Child thread #80: 24*8
+Child thread #81: 24*39
+Child thread #82: 24*98
+Child thread #83: 24*67
+Child thread #84: 24*25
+Child thread #85: 24*6
+Child thread #86: 24*6
+Child thread #87: 24*44
+Child thread #88: 24*81
+Child thread #89: 24*68
+Child thread #91: 24*21
+Child thread #90: 24*31
+Child thread #93: 24*27
+Child thread #92: 24*37
+Child thread #94: 24*4
+Child thread #96: 24*13
+Child thread #97: 24*5
+Child thread #95: 24*79
+Child thread #98: 24*71
+Child thread #99: 24*63
+Child thread #100: 91*8
+Child thread #101: 91*39
+Child thread #102: 91*98
+Child thread #103: 91*67
+Child thread #104: 91*25
+Child thread #105: 91*6
+Child thread #106: 91*6
+Child thread #107: 91*44
+Child thread #108: 91*81
+Child thread #110: 91*31
+Child thread #109: 91*68
+Child thread #111: 91*21
+Child thread #112: 91*37
+Child thread #113: 91*27
+Child thread #115: 91*79
+Child thread #114: 91*4
+Child thread #117: 91*5
+Child thread #116: 91*13
+Child thread #118: 91*71
+Child thread #119: 91*63
+Child thread #120: 56*8
+Child thread #121: 56*39
+Child thread #122: 56*98
+Child thread #123: 56*67
+Child thread #124: 56*25
+Child thread #125: 56*6
+Child thread #126: 56*6
+Child thread #127: 56*44
+Child thread #128: 56*81
+Child thread #129: 56*68
+Child thread #130: 56*31
+Child thread #131: 56*21
+Child thread #132: 56*37
+Child thread #134: 56*4
+Child thread #133: 56*27
+Child thread #136: 56*13
+Child thread #135: 56*79
+Child thread #137: 56*5
+Child thread #138: 56*71
+Child thread #139: 56*63
+Child thread #142: 62*98
+Child thread #141: 62*39
+Child thread #143: 62*67
+Child thread #140: 62*8
+Child thread #144: 62*25
+Child thread #145: 62*6
+Child thread #15: 5*70
+Child thread #146: 62*6
+Child thread #4: 5*53
+Child thread #148: 62*81
+Child thread #147: 62*44
+Child thread #5: 5*62
+Child thread #150: 62*31
+Child thread #8: 5*80
+Child thread #149: 62*68
+Child thread #3: 40*12
+Child thread #17: 5*16
+Child thread #151: 62*21
+Child thread #9: 5*52
+Child thread #18: 5*98
+Child thread #11: 5*49
+Child thread #152: 62*37
+Child thread #13: 40*76
+Child thread #153: 62*27
+Child thread #6: 5*97
+Child thread #19: 5*57
+Child thread #14: 40*33
+Child thread #154: 62*4
+Child thread #7: 5*73
+Child thread #155: 62*79
+Child thread #20: 48*9
+Child thread #10: 5*51
+Child thread #1: 40*85
+Child thread #156: 62*13
+Child thread #21: 48*66
+Child thread #12: 5*31
+Child thread #157: 62*5
+Child thread #0: 40*74
+Child thread #158: 62*71
+Child thread #16: 5*75
+Child thread #22: 48*18
+Child thread #23: 48*17
+Child thread #159: 62*63
+Child thread #2: 49*8
+Child thread #160: 0*8
+Child thread #24: 48*53
+Child thread #25: 48*62
+Child thread #26: 48*97
+Child thread #161: 0*39
+Child thread #27: 48*73
+Child thread #162: 0*98
+Child thread #28: 48*80
+Child thread #29: 48*52
+Child thread #30: 48*51
+Child thread #31: 48*49
+Child thread #32: 48*31
+Child thread #33: 48*28
+Child thread #34: 48*3
+Child thread #36: 48*75
+Child thread #35: 48*70
+Child thread #37: 48*16
+Child thread #39: 48*57
+Child thread #41: 43*66
+Child thread #40: 43*9
+Child thread #38: 48*98
+Child thread #42: 43*18
+Child thread #43: 43*17
+Child thread #44: 43*53
+Child thread #46: 43*97
+Child thread #45: 43*62
+Child thread #47: 43*73
+Child thread #164: 0*25
+Child thread #163: 0*67
+Child thread #48: 43*80
+Child thread #49: 43*52
+Child thread #50: 43*51
+Child thread #165: 0*6
+Child thread #51: 43*49
+Child thread #52: 43*31
+Child thread #53: 43*28
+Child thread #166: 0*6
+Child thread #54: 43*3
+Child thread #167: 0*44
+Child thread #55: 43*70
+Child thread #56: 43*75
+Child thread #168: 0*81
+Child thread #57: 43*16
+Child thread #169: 0*68
+Child thread #59: 43*57
+Child thread #58: 43*98
+Child thread #60: 71*9
+Child thread #170: 0*31
+Child thread #61: 71*66
+Child thread #171: 0*21
+Child thread #62: 71*18
+Child thread #63: 71*17
+Child thread #64: 71*53
+Child thread #66: 71*97
+Child thread #172: 0*37
+Child thread #65: 71*62
+Child thread #173: 0*27
+Child thread #174: 0*4
+Child thread #68: 71*80
+Child thread #67: 71*73
+Child thread #175: 0*79
+Child thread #69: 71*52
+Child thread #70: 71*51
+Child thread #176: 0*13
+Child thread #71: 71*49
+Child thread #178: 0*71
+Child thread #72: 71*31
+Child thread #177: 0*5
+Child thread #73: 71*28
+Child thread #179: 0*63
+Child thread #74: 71*3
+Child thread #75: 71*70
+Child thread #76: 71*75
+Child thread #77: 71*16
+Child thread #78: 71*98
+Child thread #79: 71*57
+Child thread #80: 31*9
+Child thread #81: 31*66
+Child thread #82: 31*18
+Child thread #83: 31*17
+Child thread #84: 31*53
+Child thread #85: 31*62
+Child thread #86: 31*97
+Child thread #87: 31*73
+Child thread #88: 31*80
+Child thread #89: 31*52
+Child thread #91: 31*49
+Child thread #90: 31*51
+Child thread #93: 31*28
+Child thread #92: 31*31
+Child thread #94: 31*3
+Child thread #96: 31*75
+Child thread #97: 31*16
+Child thread #95: 31*70
+Child thread #98: 31*98
+Child thread #99: 31*57
+Child thread #100: 15*9
+Child thread #101: 15*66
+Child thread #102: 15*18
+Child thread #103: 15*17
+Child thread #104: 15*53
+Child thread #105: 15*62
+Child thread #106: 15*97
+Child thread #107: 15*73
+Child thread #108: 15*80
+Child thread #110: 15*51
+Child thread #109: 15*52
+Child thread #111: 15*49
+Child thread #112: 15*31
+Child thread #113: 15*28
+Child thread #115: 15*70
+Child thread #114: 15*3
+Child thread #117: 15*16
+Child thread #116: 15*75
+Child thread #118: 15*98
+Child thread #119: 15*57
+Child thread #120: 28*9
+Child thread #121: 28*66
+Child thread #122: 28*18
+Child thread #123: 28*17
+Child thread #124: 28*53
+Child thread #125: 28*62
+Child thread #126: 28*97
+Child thread #127: 28*73
+Child thread #128: 28*80
+Child thread #129: 28*52
+Child thread #130: 28*51
+Child thread #131: 28*49
+Child thread #132: 28*31
+Child thread #134: 28*3
+Child thread #133: 28*28
+Child thread #136: 28*75
+Child thread #135: 28*70
+Child thread #137: 28*16
+Child thread #138: 28*98
+Child thread #139: 28*57
+Child thread #142: 86*18
+Child thread #141: 86*66
+Child thread #143: 86*17
+Child thread #140: 86*9
+Child thread #144: 86*53
+Child thread #145: 86*62
+Child thread #15: 40*65
+Child thread #146: 86*97
+Child thread #4: 40*79
+Child thread #148: 86*80
+Child thread #147: 86*73
+Child thread #5: 40*12
+Child thread #150: 86*51
+Child thread #8: 40*9
+Child thread #149: 86*52
+Child thread #3: 49*19
+Child thread #17: 40*43
+Child thread #151: 86*49
+Child thread #9: 40*62
+Child thread #18: 40*59
+Child thread #11: 40*38
+Child thread #152: 86*31
+Child thread #13: 49*58
+Child thread #153: 86*28
+Child thread #6: 40*36
+Child thread #19: 40*39
+Child thread #14: 49*45
+Child thread #154: 86*3
+Child thread #7: 40*35
+Child thread #155: 86*70
+Child thread #20: 61*74
+Child thread #10: 40*56
+Child thread #1: 49*75
+Child thread #156: 86*75
+Child thread #21: 61*85
+Child thread #12: 40*22
+Child thread #157: 86*16
+Child thread #0: 49*40
+Child thread #158: 86*98
+Child thread #16: 40*99
+Child thread #22: 61*100
+Child thread #23: 61*12
+Child thread #159: 86*57
+Child thread #2: 1*41
+Child thread #160: 72*9
+Child thread #24: 61*79
+Child thread #25: 61*12
+Child thread #26: 61*36
+Child thread #161: 72*66
+Child thread #27: 61*35
+Child thread #162: 72*18
+Child thread #28: 61*9
+Child thread #29: 61*62
+Child thread #30: 61*56
+Child thread #31: 61*38
+Child thread #32: 61*22
+Child thread #33: 61*76
+Child thread #34: 61*33
+Child thread #36: 61*99
+Child thread #35: 61*65
+Child thread #37: 61*43
+Child thread #39: 61*39
+Child thread #41: 30*85
+Child thread #40: 30*74
+Child thread #38: 61*59
+Child thread #42: 30*100
+Child thread #43: 30*12
+Child thread #44: 30*79
+Child thread #46: 30*36
+Child thread #45: 30*12
+Child thread #47: 30*35
+Child thread #164: 72*53
+Child thread #163: 72*17
+Child thread #48: 30*9
+Child thread #49: 30*62
+Child thread #50: 30*56
+Child thread #165: 72*62
+Child thread #51: 30*38
+Child thread #52: 30*22
+Child thread #53: 30*76
+Child thread #166: 72*97
+Child thread #54: 30*33
+Child thread #167: 72*73
+Child thread #55: 30*65
+Child thread #56: 30*99
+Child thread #168: 72*80
+Child thread #57: 30*43
+Child thread #169: 72*52
+Child thread #59: 30*39
+Child thread #58: 30*59
+Child thread #60: 0*74
+Child thread #170: 72*51
+Child thread #61: 0*85
+Child thread #171: 72*49
+Child thread #62: 0*100
+Child thread #63: 0*12
+Child thread #64: 0*79
+Child thread #66: 0*36
+Child thread #172: 72*31
+Child thread #65: 0*12
+Child thread #173: 72*28
+Child thread #174: 72*3
+Child thread #68: 0*9
+Child thread #67: 0*35
+Child thread #175: 72*70
+Child thread #69: 0*62
+Child thread #70: 0*56
+Child thread #176: 72*75
+Child thread #71: 0*38
+Child thread #178: 72*98
+Child thread #72: 0*22
+Child thread #177: 72*16
+Child thread #73: 0*76
+Child thread #179: 72*57
+Child thread #74: 0*33
+Child thread #75: 0*65
+Child thread #76: 0*99
+Child thread #77: 0*43
+Child thread #78: 0*59
+Child thread #79: 0*39
+Child thread #80: 44*74
+Child thread #81: 44*85
+Child thread #82: 44*100
+Child thread #83: 44*12
+Child thread #84: 44*79
+Child thread #85: 44*12
+Child thread #86: 44*36
+Child thread #87: 44*35
+Child thread #88: 44*9
+Child thread #89: 44*62
+Child thread #91: 44*38
+Child thread #90: 44*56
+Child thread #93: 44*76
+Child thread #92: 44*22
+Child thread #94: 44*33
+Child thread #96: 44*99
+Child thread #97: 44*43
+Child thread #95: 44*65
+Child thread #98: 44*59
+Child thread #99: 44*39
+Child thread #100: 62*74
+Child thread #101: 62*85
+Child thread #102: 62*100
+Child thread #103: 62*12
+Child thread #104: 62*79
+Child thread #105: 62*12
+Child thread #106: 62*36
+Child thread #107: 62*35
+Child thread #108: 62*9
+Child thread #110: 62*56
+Child thread #109: 62*62
+Child thread #111: 62*38
+Child thread #112: 62*22
+Child thread #113: 62*76
+Child thread #115: 62*65
+Child thread #114: 62*33
+Child thread #117: 62*43
+Child thread #116: 62*99
+Child thread #118: 62*59
+Child thread #119: 62*39
+Child thread #120: 30*74
+Child thread #121: 30*85
+Child thread #122: 30*100
+Child thread #123: 30*12
+Child thread #124: 30*79
+Child thread #125: 30*12
+Child thread #126: 30*36
+Child thread #127: 30*35
+Child thread #128: 30*9
+Child thread #129: 30*62
+Child thread #130: 30*56
+Child thread #131: 30*38
+Child thread #132: 30*22
+Child thread #134: 30*33
+Child thread #133: 30*76
+Child thread #136: 30*99
+Child thread #135: 30*65
+Child thread #137: 30*43
+Child thread #138: 30*59
+Child thread #139: 30*39
+Child thread #142: 76*100
+Child thread #141: 76*85
+Child thread #143: 76*12
+Child thread #140: 76*74
+Child thread #144: 76*79
+Child thread #145: 76*12
+Child thread #15: 49*38
+Child thread #146: 76*36
+Child thread #4: 49*31
+Child thread #148: 76*9
+Child thread #147: 76*35
+Child thread #5: 49*81
+Child thread #150: 76*56
+Child thread #8: 49*80
+Child thread #149: 76*62
+Child thread #3: 1*23
+Child thread #17: 49*1
+Child thread #151: 76*38
+Child thread #9: 49*70
+Child thread #18: 49*47
+Child thread #11: 49*76
+Child thread #152: 76*22
+Child thread #13: 1*90
+Child thread #153: 76*76
+Child thread #6: 49*9
+Child thread #19: 49*44
+Child thread #14: 1*36
+Child thread #154: 76*33
+Child thread #7: 49*95
+Child thread #155: 76*65
+Child thread #20: 25*40
+Child thread #10: 49*3
+Child thread #1: 1*29
+Child thread #156: 76*99
+Child thread #21: 25*75
+Child thread #12: 49*88
+Child thread #157: 76*43
+Child thread #0: 1*1
+Child thread #158: 76*59
+Child thread #16: 49*34
+Child thread #22: 25*8
+Child thread #23: 25*19
+Child thread #159: 76*39
+Child thread #2: 84*67
+Child thread #160: 21*74
+Child thread #24: 25*31
+Child thread #25: 25*81
+Child thread #26: 25*9
+Child thread #161: 21*85
+Child thread #27: 25*95
+Child thread #162: 21*100
+Child thread #28: 25*80
+Child thread #29: 25*70
+Child thread #30: 25*3
+Child thread #31: 25*76
+Child thread #32: 25*88
+Child thread #33: 25*58
+Child thread #34: 25*45
+Child thread #36: 25*34
+Child thread #35: 25*38
+Child thread #37: 25*1
+Child thread #39: 25*44
+Child thread #41: 28*75
+Child thread #40: 28*40
+Child thread #38: 25*47
+Child thread #42: 28*8
+Child thread #43: 28*19
+Child thread #44: 28*31
+Child thread #46: 28*9
+Child thread #45: 28*81
+Child thread #47: 28*95
+Child thread #164: 21*79
+Child thread #163: 21*12
+Child thread #48: 28*80
+Child thread #49: 28*70
+Child thread #50: 28*3
+Child thread #165: 21*12
+Child thread #51: 28*76
+Child thread #52: 28*88
+Child thread #53: 28*58
+Child thread #166: 21*36
+Child thread #54: 28*45
+Child thread #167: 21*35
+Child thread #55: 28*38
+Child thread #56: 28*34
+Child thread #168: 21*9
+Child thread #57: 28*1
+Child thread #169: 21*62
+Child thread #59: 28*44
+Child thread #58: 28*47
+Child thread #60: 32*40
+Child thread #170: 21*56
+Child thread #61: 32*75
+Child thread #171: 21*38
+Child thread #62: 32*8
+Child thread #63: 32*19
+Child thread #64: 32*31
+Child thread #66: 32*9
+Child thread #172: 21*22
+Child thread #65: 32*81
+Child thread #173: 21*76
+Child thread #174: 21*33
+Child thread #68: 32*80
+Child thread #67: 32*95
+Child thread #175: 21*65
+Child thread #69: 32*70
+Child thread #70: 32*3
+Child thread #176: 21*99
+Child thread #71: 32*76
+Child thread #178: 21*59
+Child thread #72: 32*88
+Child thread #177: 21*43
+Child thread #73: 32*58
+Child thread #179: 21*39
+Child thread #74: 32*45
+Child thread #75: 32*38
+Child thread #76: 32*34
+Child thread #77: 32*1
+Child thread #78: 32*47
+Child thread #79: 32*44
+Child thread #80: 77*40
+Child thread #81: 77*75
+Child thread #82: 77*8
+Child thread #83: 77*19
+Child thread #84: 77*31
+Child thread #85: 77*81
+Child thread #86: 77*9
+Child thread #87: 77*95
+Child thread #88: 77*80
+Child thread #89: 77*70
+Child thread #91: 77*76
+Child thread #90: 77*3
+Child thread #93: 77*58
+Child thread #92: 77*88
+Child thread #94: 77*45
+Child thread #96: 77*34
+Child thread #97: 77*1
+Child thread #95: 77*38
+Child thread #98: 77*47
+Child thread #99: 77*44
+Child thread #100: 21*40
+Child thread #101: 21*75
+Child thread #102: 21*8
+Child thread #103: 21*19
+Child thread #104: 21*31
+Child thread #105: 21*81
+Child thread #106: 21*9
+Child thread #107: 21*95
+Child thread #108: 21*80
+Child thread #110: 21*3
+Child thread #109: 21*70
+Child thread #111: 21*76
+Child thread #112: 21*88
+Child thread #113: 21*58
+Child thread #115: 21*38
+Child thread #114: 21*45
+Child thread #117: 21*1
+Child thread #116: 21*34
+Child thread #118: 21*47
+Child thread #119: 21*44
+Child thread #120: 25*40
+Child thread #121: 25*75
+Child thread #122: 25*8
+Child thread #123: 25*19
+Child thread #124: 25*31
+Child thread #125: 25*81
+Child thread #126: 25*9
+Child thread #127: 25*95
+Child thread #128: 25*80
+Child thread #129: 25*70
+Child thread #130: 25*3
+Child thread #131: 25*76
+Child thread #132: 25*88
+Child thread #134: 25*45
+Child thread #133: 25*58
+Child thread #136: 25*34
+Child thread #135: 25*38
+Child thread #137: 25*1
+Child thread #138: 25*47
+Child thread #139: 25*44
+Child thread #142: 27*8
+Child thread #141: 27*75
+Child thread #143: 27*19
+Child thread #140: 27*40
+Child thread #144: 27*31
+Child thread #145: 27*81
+Child thread #15: 1*95
+Child thread #146: 27*9
+Child thread #4: 1*9
+Child thread #148: 27*80
+Child thread #147: 27*95
+Child thread #5: 1*44
+Child thread #150: 27*3
+Child thread #8: 1*18
+Child thread #149: 27*70
+Child thread #3: 84*25
+Child thread #17: 1*56
+Child thread #151: 27*76
+Child thread #9: 1*75
+Child thread #18: 1*0
+Child thread #11: 1*93
+Child thread #152: 27*88
+Child thread #13: 84*80
+Child thread #153: 27*58
+Child thread #6: 1*55
+Child thread #19: 1*8
+Child thread #14: 84*70
+Child thread #154: 27*45
+Child thread #7: 1*57
+Child thread #155: 27*38
+Child thread #20: 32*1
+Child thread #10: 1*40
+Child thread #1: 84*98
+Child thread #156: 27*34
+Child thread #21: 32*29
+Child thread #12: 1*90
+Child thread #157: 27*1
+Child thread #0: 84*39
+Child thread #158: 27*47
+Child thread #16: 1*92
+Child thread #22: 32*41
+Child thread #23: 32*23
+Child thread #159: 27*44
+Child thread #2: done
+Child thread #160: 85*40
+Child thread #24: 32*9
+Child thread #25: 32*44
+Child thread #26: 32*55
+Child thread #161: 85*75
+Child thread #27: 32*57
+Child thread #162: 85*8
+Child thread #28: 32*18
+Child thread #29: 32*75
+Child thread #30: 32*40
+Child thread #31: 32*93
+Child thread #32: 32*90
+Child thread #33: 32*90
+Child thread #34: 32*36
+Child thread #36: 32*92
+Child thread #35: 32*95
+Child thread #37: 32*56
+Child thread #39: 32*8
+Child thread #41: 35*29
+Child thread #40: 35*1
+Child thread #38: 32*0
+Child thread #42: 35*41
+Child thread #43: 35*23
+Child thread #44: 35*9
+Child thread #46: 35*55
+Child thread #45: 35*44
+Child thread #47: 35*57
+Child thread #164: 85*31
+Child thread #163: 85*19
+Child thread #48: 35*18
+Child thread #49: 35*75
+Child thread #50: 35*40
+Child thread #165: 85*81
+Child thread #51: 35*93
+Child thread #52: 35*90
+Child thread #53: 35*90
+Child thread #166: 85*9
+Child thread #54: 35*36
+Child thread #167: 85*95
+Child thread #55: 35*95
+Child thread #56: 35*92
+Child thread #168: 85*80
+Child thread #57: 35*56
+Child thread #169: 85*70
+Child thread #59: 35*8
+Child thread #58: 35*0
+Child thread #60: 70*1
+Child thread #170: 85*3
+Child thread #61: 70*29
+Child thread #171: 85*76
+Child thread #62: 70*41
+Child thread #63: 70*23
+Child thread #64: 70*9
+Child thread #66: 70*55
+Child thread #172: 85*88
+Child thread #65: 70*44
+Child thread #173: 85*58
+Child thread #174: 85*45
+Child thread #68: 70*18
+Child thread #67: 70*57
+Child thread #175: 85*38
+Child thread #69: 70*75
+Child thread #70: 70*40
+Child thread #176: 85*34
+Child thread #71: 70*93
+Child thread #178: 85*47
+Child thread #72: 70*90
+Child thread #177: 85*1
+Child thread #73: 70*90
+Child thread #179: 85*44
+Child thread #74: 70*36
+Child thread #75: 70*95
+Child thread #76: 70*92
+Child thread #77: 70*56
+Child thread #78: 70*0
+Child thread #79: 70*8
+Child thread #80: 62*1
+Child thread #81: 62*29
+Child thread #82: 62*41
+Child thread #83: 62*23
+Child thread #84: 62*9
+Child thread #85: 62*44
+Child thread #86: 62*55
+Child thread #87: 62*57
+Child thread #88: 62*18
+Child thread #89: 62*75
+Child thread #91: 62*93
+Child thread #90: 62*40
+Child thread #93: 62*90
+Child thread #92: 62*90
+Child thread #94: 62*36
+Child thread #96: 62*92
+Child thread #97: 62*56
+Child thread #95: 62*95
+Child thread #98: 62*0
+Child thread #99: 62*8
+Child thread #100: 88*1
+Child thread #101: 88*29
+Child thread #102: 88*41
+Child thread #103: 88*23
+Child thread #104: 88*9
+Child thread #105: 88*44
+Child thread #106: 88*55
+Child thread #107: 88*57
+Child thread #108: 88*18
+Child thread #110: 88*40
+Child thread #109: 88*75
+Child thread #111: 88*93
+Child thread #112: 88*90
+Child thread #113: 88*90
+Child thread #115: 88*95
+Child thread #114: 88*36
+Child thread #117: 88*56
+Child thread #116: 88*92
+Child thread #118: 88*0
+Child thread #119: 88*8
+Child thread #120: 52*1
+Child thread #121: 52*29
+Child thread #122: 52*41
+Child thread #123: 52*23
+Child thread #124: 52*9
+Child thread #125: 52*44
+Child thread #126: 52*55
+Child thread #127: 52*57
+Child thread #128: 52*18
+Child thread #129: 52*75
+Child thread #130: 52*40
+Child thread #131: 52*93
+Child thread #132: 52*90
+Child thread #134: 52*36
+Child thread #133: 52*90
+Child thread #136: 52*92
+Child thread #135: 52*95
+Child thread #137: 52*56
+Child thread #138: 52*0
+Child thread #139: 52*8
+Child thread #142: 30*41
+Child thread #141: 30*29
+Child thread #143: 30*23
+Child thread #140: 30*1
+Child thread #144: 30*9
+Child thread #145: 30*44
+Child thread #15: 84*3
+Child thread #146: 30*55
+Child thread #4: 84*6
+Child thread #148: 30*18
+Child thread #147: 30*57
+Child thread #5: 84*6
+Child thread #150: 30*40
+Child thread #8: 84*68
+Child thread #149: 30*75
+Child thread #3: done
+Child thread #17: 84*88
+Child thread #151: 30*93
+Child thread #9: 84*31
+Child thread #18: 84*58
+Child thread #11: 84*9
+Child thread #152: 30*90
+Child thread #13: done
+Child thread #153: 30*90
+Child thread #6: 84*44
+Child thread #19: 84*45
+Child thread #14: done
+Child thread #154: 30*36
+Child thread #7: 84*81
+Child thread #155: 30*95
+Child thread #20: 58*39
+Child thread #10: 84*81
+Child thread #1: done
+Child thread #156: 30*92
+Child thread #21: 58*98
+Child thread #12: 84*95
+Child thread #157: 30*56
+Child thread #0: done
+Child thread #158: 30*0
+Child thread #16: 84*76
+Child thread #22: 58*67
+Child thread #23: 58*25
+Child thread #159: 30*8
+Child thread #160: 32*1
+Child thread #24: 58*6
+Child thread #25: 58*6
+Child thread #26: 58*44
+Child thread #161: 32*29
+Child thread #27: 58*81
+Child thread #162: 32*41
+Child thread #28: 58*68
+Child thread #29: 58*31
+Child thread #30: 58*81
+Child thread #31: 58*9
+Child thread #32: 58*95
+Child thread #33: 58*80
+Child thread #34: 58*70
+Child thread #36: 58*76
+Child thread #35: 58*3
+Child thread #37: 58*88
+Child thread #39: 58*45
+Child thread #41: 99*98
+Child thread #40: 99*39
+Child thread #38: 58*58
+Child thread #42: 99*67
+Child thread #43: 99*25
+Child thread #44: 99*6
+Child thread #46: 99*44
+Child thread #45: 99*6
+Child thread #47: 99*81
+Child thread #164: 32*9
+Child thread #163: 32*23
+Child thread #48: 99*68
+Child thread #49: 99*31
+Child thread #50: 99*81
+Child thread #165: 32*44
+Child thread #51: 99*9
+Child thread #52: 99*95
+Child thread #53: 99*80
+Child thread #166: 32*55
+Child thread #54: 99*70
+Child thread #167: 32*57
+Child thread #55: 99*3
+Child thread #56: 99*76
+Child thread #168: 32*18
+Child thread #57: 99*88
+Child thread #169: 32*75
+Child thread #59: 99*45
+Child thread #58: 99*58
+Child thread #60: 48*39
+Child thread #170: 32*40
+Child thread #61: 48*98
+Child thread #171: 32*93
+Child thread #62: 48*67
+Child thread #63: 48*25
+Child thread #64: 48*6
+Child thread #66: 48*44
+Child thread #172: 32*90
+Child thread #65: 48*6
+Child thread #173: 32*90
+Child thread #174: 32*36
+Child thread #68: 48*68
+Child thread #67: 48*81
+Child thread #175: 32*95
+Child thread #69: 48*31
+Child thread #70: 48*81
+Child thread #176: 32*92
+Child thread #71: 48*9
+Child thread #178: 32*0
+Child thread #72: 48*95
+Child thread #73: 48*80
+Child thread #177: 32*56
+Child thread #179: 32*8
+Child thread #74: 48*70
+Child thread #75: 48*3
+Child thread #76: 48*76
+Child thread #77: 48*88
+Child thread #78: 48*58
+Child thread #79: 48*45
+Child thread #80: 13*39
+Child thread #81: 13*98
+Child thread #82: 13*67
+Child thread #83: 13*25
+Child thread #84: 13*6
+Child thread #85: 13*6
+Child thread #86: 13*44
+Child thread #87: 13*81
+Child thread #88: 13*68
+Child thread #89: 13*31
+Child thread #91: 13*9
+Child thread #90: 13*81
+Child thread #93: 13*80
+Child thread #92: 13*95
+Child thread #94: 13*70
+Child thread #96: 13*76
+Child thread #97: 13*88
+Child thread #95: 13*3
+Child thread #98: 13*58
+Child thread #99: 13*45
+Child thread #100: 66*39
+Child thread #101: 66*98
+Child thread #102: 66*67
+Child thread #103: 66*25
+Child thread #104: 66*6
+Child thread #105: 66*6
+Child thread #106: 66*44
+Child thread #107: 66*81
+Child thread #108: 66*68
+Child thread #110: 66*81
+Child thread #109: 66*31
+Child thread #111: 66*9
+Child thread #112: 66*95
+Child thread #113: 66*80
+Child thread #115: 66*3
+Child thread #114: 66*70
+Child thread #117: 66*88
+Child thread #116: 66*76
+Child thread #118: 66*58
+Child thread #119: 66*45
+Child thread #120: 71*39
+Child thread #121: 71*98
+Child thread #122: 71*67
+Child thread #123: 71*25
+Child thread #124: 71*6
+Child thread #125: 71*6
+Child thread #126: 71*44
+Child thread #127: 71*81
+Child thread #128: 71*68
+Child thread #129: 71*31
+Child thread #130: 71*81
+Child thread #131: 71*9
+Child thread #132: 71*95
+Child thread #134: 71*70
+Child thread #133: 71*80
+Child thread #136: 71*76
+Child thread #135: 71*3
+Child thread #137: 71*88
+Child thread #138: 71*58
+Child thread #139: 71*45
+Child thread #142: 7*67
+Child thread #141: 7*98
+Child thread #143: 7*25
+Child thread #140: 7*39
+Child thread #144: 7*6
+Child thread #145: 7*6
+Child thread #15: done
+Child thread #146: 7*44
+Child thread #4: done
+Child thread #148: 7*68
+Child thread #147: 7*81
+Child thread #5: done
+Child thread #150: 7*81
+Child thread #8: done
+Child thread #149: 7*31
+Child thread #17: done
+Child thread #151: 7*9
+Child thread #9: done
+Child thread #18: done
+Child thread #11: done
+Child thread #152: 7*95
+Child thread #153: 7*80
+Child thread #6: done
+Child thread #19: done
+Child thread #154: 7*70
+Child thread #7: done
+Child thread #155: 7*3
+Child thread #20: done
+Child thread #10: done
+Child thread #156: 7*76
+Child thread #21: done
+Child thread #12: done
+Child thread #157: 7*88
+Child thread #158: 7*58
+Child thread #16: done
+Child thread #22: done
+Child thread #23: done
+Child thread #159: 7*45
+Child thread #160: 5*39
+Child thread #24: done
+Child thread #25: done
+Child thread #26: done
+Child thread #161: 5*98
+Child thread #27: done
+Child thread #162: 5*67
+Child thread #28: done
+Child thread #29: done
+Child thread #30: done
+Child thread #31: done
+Child thread #32: done
+Child thread #33: done
+Child thread #34: done
+Child thread #36: done
+Child thread #35: done
+Child thread #37: done
+Child thread #39: done
+Child thread #41: done
+Child thread #40: done
+Child thread #38: done
+Child thread #42: done
+Child thread #43: done
+Child thread #44: done
+Child thread #46: done
+Child thread #45: done
+Child thread #47: done
+Child thread #164: 5*6
+Child thread #163: 5*25
+Child thread #48: done
+Child thread #49: done
+Child thread #50: done
+Child thread #165: 5*6
+Child thread #51: done
+Child thread #52: done
+Child thread #53: done
+Child thread #166: 5*44
+Child thread #54: done
+Child thread #167: 5*81
+Child thread #55: done
+Child thread #56: done
+Child thread #168: 5*68
+Child thread #57: done
+Child thread #169: 5*31
+Child thread #59: done
+Child thread #58: done
+Child thread #60: done
+Child thread #170: 5*81
+Child thread #61: done
+Child thread #171: 5*9
+Child thread #62: done
+Child thread #63: done
+Child thread #64: done
+Child thread #66: done
+Child thread #172: 5*95
+Child thread #65: done
+Child thread #173: 5*80
+Child thread #174: 5*70
+Child thread #68: done
+Child thread #67: done
+Child thread #175: 5*3
+Child thread #69: done
+Child thread #70: done
+Child thread #176: 5*76
+Child thread #71: done
+Child thread #178: 5*58
+Child thread #72: done
+Child thread #73: done
+Child thread #177: 5*88
+Child thread #179: 5*45
+Child thread #74: done
+Child thread #75: done
+Child thread #76: done
+Child thread #77: done
+Child thread #78: done
+Child thread #79: done
+Child thread #80: done
+Child thread #81: done
+Child thread #82: done
+Child thread #83: done
+Child thread #84: done
+Child thread #85: done
+Child thread #86: done
+Child thread #87: done
+Child thread #88: done
+Child thread #89: done
+Child thread #91: done
+Child thread #90: done
+Child thread #93: done
+Child thread #92: done
+Child thread #94: done
+Child thread #96: done
+Child thread #97: done
+Child thread #95: done
+Child thread #98: done
+Child thread #99: done
+Child thread #100: done
+Child thread #101: done
+Child thread #102: done
+Child thread #103: done
+Child thread #104: done
+Child thread #105: done
+Child thread #106: done
+Child thread #107: done
+Child thread #108: done
+Child thread #110: done
+Child thread #109: done
+Child thread #111: done
+Child thread #112: done
+Child thread #113: done
+Child thread #115: done
+Child thread #114: done
+Child thread #117: done
+Child thread #116: done
+Child thread #118: done
+Child thread #119: done
+Child thread #120: done
+Child thread #121: done
+Child thread #122: done
+Child thread #123: done
+Child thread #124: done
+Child thread #125: done
+Child thread #126: done
+Child thread #127: done
+Child thread #128: done
+Child thread #129: done
+Child thread #130: done
+Child thread #131: done
+Child thread #132: done
+Child thread #134: done
+Child thread #133: done
+Child thread #136: done
+Child thread #135: done
+Child thread #137: done
+Child thread #138: done
+Child thread #139: done
+Child thread #142: done
+Child thread #141: done
+Child thread #143: done
+Child thread #140: done
+Child thread #144: done
+Child thread #145: done
+Child thread #146: done
+Child thread #148: done
+Child thread #147: done
+Child thread #150: done
+Child thread #149: done
+Child thread #151: done
+Child thread #152: done
+Child thread #153: done
+Child thread #154: done
+Child thread #155: done
+Child thread #156: done
+Child thread #157: done
+Child thread #158: done
+Child thread #159: done
+Child thread #160: done
+Child thread #161: done
+Child thread #162: done
+Child thread #164: done
+Child thread #163: done
+Child thread #165: done
+Child thread #166: done
+Child thread #167: done
+Child thread #168: done
+Child thread #169: done
+Child thread #170: done
+Child thread #171: done
+Child thread #172: done
+Child thread #173: done
+Child thread #174: done
+Child thread #175: done
+Child thread #176: done
+Child thread #178: done
+Child thread #177: done
+Child thread #179: done
+
+Matrix c(9*20) is
+26363 27970 35713 24171 14802 21441 21144 33337 34069 24048 28848 21966 32692 27258 29397 17558 33300 35261 27411 26713 
+18033 26193 31298 18222 14206 16241 18982 28900 28055 25779 23852 19595 25232 23591 17493 22315 29705 23617 24993 25002 
+18178 28884 30804 18088 11644 17972 22119 25013 29754 22620 27453 17162 30513 28270 24683 19929 29740 27388 22061 21357 
+21656 25856 32713 22200 15044 26144 31062 32065 37289 28218 30476 25968 36311 31128 28961 25179 35944 33722 25760 24713 
+17834 22843 25984 15732 14853 23065 20541 21646 25136 22402 17764 21852 24980 22597 20788 20778 23763 20153 18447 16720 
+22283 29040 38963 20444 14564 19203 25973 32637 34255 34211 32022 24624 37248 36392 26212 28544 38664 32400 23064 27516 
+14756 23728 29057 13719 11313 15307 21674 19452 27706 23697 22395 14426 26858 25952 19737 20270 23109 20049 17140 18096 
+18847 27439 31017 20148 16940 21133 21504 24543 26832 23999 24824 21696 23306 23775 19630 25944 31540 23555 26047 23159 
+23957 26231 28098 17281 16528 30874 29228 30711 35358 28877 23905 25746 29605 24587 24335 19953 29982 26698 21528 27102 
+
+================ input file 3=======================
+Please enter input file name for matrix a: 
+a3.txt
+Please enter input file name for matrix b: 
+b3.txt
+
+Matrix a(11*20) is
+75 16 98 57 74 85 100 12 79 12 21 37 27 4 79 13 5 71 63 9 
+66 27 52 18 17 53 62 97 73 80 52 51 49 31 28 3 70 75 16 98 
+57 74 85 100 12 79 12 36 35 9 62 56 38 22 76 33 65 99 43 59 
+39 40 75 8 19 31 81 9 95 80 70 3 76 88 58 45 38 34 1 47 
+44 1 29 41 23 9 44 55 57 18 75 40 93 90 90 36 95 92 56 0 
+8 39 98 67 25 6 6 44 81 68 31 21 37 27 4 79 13 5 71 63 
+9 66 18 17 53 62 97 73 80 52 51 49 31 28 3 70 75 16 98 57 
+74 85 100 12 79 12 36 35 9 62 56 38 22 76 33 65 99 43 59 39 
+40 75 8 19 31 81 9 95 80 70 3 76 88 58 45 38 34 1 47 44 
+1 29 41 23 9 44 55 57 18 75 40 93 90 90 36 95 92 56 0 8 
+39 98 67 25 6 6 44 81 68 31 81 9 95 80 70 3 76 88 58 45 
+
+Matrix b(20*3) is
+33 65 99 
+43 59 39 
+40 75 8 
+19 31 81 
+9 95 80 
+70 3 76 
+88 58 45 
+38 34 1 
+47 44 1 
+29 41 23 
+9 44 55 
+57 18 75 
+40 93 90 
+90 36 95 
+92 56 0 
+8 39 98 
+67 25 6 
+6 44 81 
+68 31 21 
+37 27 4 
+
+Launching threads...
+Child thread #3: calculates row1 of a and col0 of b
+Child thread #12: calculates row4 of a and col0 of b
+Child thread #2: calculates row0 of a and col2 of b
+Child thread #4: calculates row1 of a and col1 of b
+Child thread #11: calculates row3 of a and col2 of b
+Child thread #1: calculates row0 of a and col1 of b
+Child thread #5: calculates row1 of a and col2 of b
+Child thread #13: calculates row4 of a and col1 of b
+Child thread #14: calculates row4 of a and col2 of b
+Child thread #3: 66*33
+Child thread #15: calculates row5 of a and col0 of b
+Child thread #0: calculates row0 of a and col0 of b
+Child thread #12: 44*33
+Child thread #6: calculates row2 of a and col0 of b
+Child thread #7: calculates row2 of a and col1 of b
+Child thread #16: calculates row5 of a and col1 of b
+Child thread #9: calculates row3 of a and col0 of b
+Child thread #2: 75*99
+Child thread #10: calculates row3 of a and col1 of b
+Child thread #17: calculates row5 of a and col2 of b
+Child thread #8: calculates row2 of a and col2 of b
+Child thread #18: calculates row6 of a and col0 of b
+Child thread #4: 66*65
+Child thread #11: 39*99
+Child thread #19: calculates row6 of a and col1 of b
+Child thread #1: 75*65
+Child thread #20: calculates row6 of a and col2 of b
+Child thread #21: calculates row7 of a and col0 of b
+Child thread #22: calculates row7 of a and col1 of b
+Child thread #5: 66*99
+Child thread #13: 44*65
+Child thread #14: 44*99
+Child thread #3: 27*43
+Child thread #23: calculates row7 of a and col2 of b
+Child thread #24: calculates row8 of a and col0 of b
+Child thread #15: 8*33
+Child thread #0: 75*33
+Child thread #12: 1*43
+Child thread #25: calculates row8 of a and col1 of b
+Child thread #26: calculates row8 of a and col2 of b
+Child thread #27: calculates row9 of a and col0 of b
+Child thread #28: calculates row9 of a and col1 of b
+Child thread #29: calculates row9 of a and col2 of b
+Child thread #30: calculates row10 of a and col0 of b
+Child thread #31: calculates row10 of a and col1 of b
+Child thread #32: calculates row10 of a and col2 of b
+Child thread #6: 57*33
+Child thread #7: 57*65
+Child thread #16: 8*65
+Child thread #9: 39*33
+Child thread #2: 16*39
+Child thread #10: 39*65
+Child thread #17: 8*99
+Child thread #8: 57*99
+Child thread #18: 9*33
+Child thread #4: 27*59
+Child thread #11: 40*39
+Child thread #19: 9*65
+Child thread #1: 16*59
+Child thread #20: 9*99
+Child thread #21: 74*33
+Child thread #5: 27*39
+Child thread #22: 74*65
+Child thread #13: 1*59
+Child thread #14: 1*39
+Child thread #3: 52*40
+Child thread #23: 74*99
+Child thread #24: 40*33
+Child thread #15: 39*43
+Child thread #0: 16*43
+Child thread #12: 29*40
+Child thread #25: 40*65
+Child thread #26: 40*99
+Child thread #27: 1*33
+Child thread #28: 1*65
+Child thread #29: 1*99
+Child thread #30: 39*33
+Child thread #31: 39*65
+Child thread #32: 39*99
+Child thread #6: 74*43
+Child thread #7: 74*59
+Child thread #16: 39*59
+Child thread #9: 40*43
+Child thread #2: 98*8
+Child thread #10: 40*59
+Child thread #17: 39*39
+Child thread #8: 74*39
+Child thread #18: 66*43
+Child thread #4: 52*75
+Child thread #11: 75*8
+Child thread #19: 66*59
+Child thread #1: 98*75
+Child thread #20: 66*39
+Child thread #21: 85*43
+Child thread #5: 52*8
+Child thread #22: 85*59
+Child thread #13: 29*75
+Child thread #14: 29*8
+Child thread #3: 18*19
+Child thread #23: 85*39
+Child thread #24: 75*43
+Child thread #15: 98*40
+Child thread #0: 98*40
+Child thread #12: 41*19
+Child thread #25: 75*59
+Child thread #26: 75*39
+Child thread #27: 29*43
+Child thread #28: 29*59
+Child thread #29: 29*39
+Child thread #30: 98*43
+Child thread #31: 98*59
+Child thread #32: 98*39
+Child thread #6: 85*40
+Child thread #7: 85*75
+Child thread #16: 98*75
+Child thread #9: 75*40
+Child thread #2: 57*81
+Child thread #10: 75*75
+Child thread #17: 98*8
+Child thread #8: 85*8
+Child thread #18: 18*40
+Child thread #4: 18*31
+Child thread #11: 8*81
+Child thread #19: 18*75
+Child thread #1: 57*31
+Child thread #20: 18*8
+Child thread #21: 100*40
+Child thread #5: 18*81
+Child thread #22: 100*75
+Child thread #13: 41*31
+Child thread #14: 41*81
+Child thread #3: 17*9
+Child thread #23: 100*8
+Child thread #24: 8*40
+Child thread #15: 67*19
+Child thread #0: 57*19
+Child thread #12: 23*9
+Child thread #25: 8*75
+Child thread #26: 8*8
+Child thread #27: 41*40
+Child thread #28: 41*75
+Child thread #29: 41*8
+Child thread #30: 67*40
+Child thread #31: 67*75
+Child thread #32: 67*8
+Child thread #6: 100*19
+Child thread #7: 100*31
+Child thread #16: 67*31
+Child thread #9: 8*19
+Child thread #2: 74*80
+Child thread #10: 8*31
+Child thread #17: 67*81
+Child thread #8: 100*81
+Child thread #18: 17*19
+Child thread #4: 17*95
+Child thread #11: 19*80
+Child thread #19: 17*31
+Child thread #1: 74*95
+Child thread #20: 17*81
+Child thread #21: 12*19
+Child thread #5: 17*80
+Child thread #22: 12*31
+Child thread #13: 23*95
+Child thread #14: 23*80
+Child thread #3: 53*70
+Child thread #23: 12*81
+Child thread #24: 19*19
+Child thread #15: 25*9
+Child thread #0: 74*9
+Child thread #12: 9*70
+Child thread #25: 19*31
+Child thread #26: 19*81
+Child thread #27: 23*19
+Child thread #28: 23*31
+Child thread #29: 23*81
+Child thread #30: 25*19
+Child thread #31: 25*31
+Child thread #32: 25*81
+Child thread #6: 12*9
+Child thread #7: 12*95
+Child thread #16: 25*95
+Child thread #9: 19*9
+Child thread #2: 85*76
+Child thread #10: 19*95
+Child thread #17: 25*80
+Child thread #8: 12*80
+Child thread #18: 53*9
+Child thread #4: 53*3
+Child thread #11: 31*76
+Child thread #19: 53*95
+Child thread #1: 85*3
+Child thread #20: 53*80
+Child thread #21: 79*9
+Child thread #5: 53*76
+Child thread #22: 79*95
+Child thread #13: 9*3
+Child thread #14: 9*76
+Child thread #3: 62*88
+Child thread #23: 79*80
+Child thread #24: 31*9
+Child thread #15: 6*70
+Child thread #0: 85*70
+Child thread #12: 44*88
+Child thread #25: 31*95
+Child thread #26: 31*80
+Child thread #27: 9*9
+Child thread #28: 9*95
+Child thread #29: 9*80
+Child thread #30: 6*9
+Child thread #31: 6*95
+Child thread #32: 6*80
+Child thread #6: 79*70
+Child thread #7: 79*3
+Child thread #16: 6*3
+Child thread #9: 31*70
+Child thread #2: 100*45
+Child thread #10: 31*3
+Child thread #17: 6*76
+Child thread #8: 79*76
+Child thread #18: 62*70
+Child thread #4: 62*58
+Child thread #11: 81*45
+Child thread #19: 62*3
+Child thread #1: 100*58
+Child thread #20: 62*76
+Child thread #21: 12*70
+Child thread #5: 62*45
+Child thread #22: 12*3
+Child thread #13: 44*58
+Child thread #14: 44*45
+Child thread #3: 97*38
+Child thread #23: 12*76
+Child thread #24: 81*70
+Child thread #15: 6*88
+Child thread #0: 100*88
+Child thread #12: 55*38
+Child thread #25: 81*3
+Child thread #26: 81*76
+Child thread #27: 44*70
+Child thread #28: 44*3
+Child thread #29: 44*76
+Child thread #30: 6*70
+Child thread #31: 6*3
+Child thread #32: 6*76
+Child thread #6: 12*88
+Child thread #7: 12*58
+Child thread #16: 6*58
+Child thread #9: 81*88
+Child thread #2: 12*1
+Child thread #10: 81*58
+Child thread #17: 6*45
+Child thread #8: 12*45
+Child thread #18: 97*88
+Child thread #4: 97*34
+Child thread #11: 9*1
+Child thread #19: 97*58
+Child thread #1: 12*34
+Child thread #20: 97*45
+Child thread #21: 36*88
+Child thread #5: 97*1
+Child thread #22: 36*58
+Child thread #13: 55*34
+Child thread #14: 55*1
+Child thread #3: 73*47
+Child thread #23: 36*45
+Child thread #24: 9*88
+Child thread #15: 44*38
+Child thread #0: 12*38
+Child thread #12: 57*47
+Child thread #25: 9*58
+Child thread #26: 9*45
+Child thread #27: 55*88
+Child thread #28: 55*58
+Child thread #29: 55*45
+Child thread #30: 44*88
+Child thread #31: 44*58
+Child thread #32: 44*45
+Child thread #6: 36*38
+Child thread #7: 36*34
+Child thread #16: 44*34
+Child thread #9: 9*38
+Child thread #2: 79*1
+Child thread #10: 9*34
+Child thread #17: 44*1
+Child thread #8: 36*1
+Child thread #18: 73*38
+Child thread #4: 73*44
+Child thread #11: 95*1
+Child thread #19: 73*34
+Child thread #1: 79*44
+Child thread #20: 73*1
+Child thread #21: 35*38
+Child thread #5: 73*1
+Child thread #22: 35*34
+Child thread #13: 57*44
+Child thread #14: 57*1
+Child thread #3: 80*29
+Child thread #23: 35*1
+Child thread #24: 95*38
+Child thread #15: 81*47
+Child thread #0: 79*47
+Child thread #12: 18*29
+Child thread #25: 95*34
+Child thread #26: 95*1
+Child thread #27: 57*38
+Child thread #28: 57*34
+Child thread #29: 57*1
+Child thread #30: 81*38
+Child thread #31: 81*34
+Child thread #32: 81*1
+Child thread #6: 35*47
+Child thread #7: 35*44
+Child thread #16: 81*44
+Child thread #9: 95*47
+Child thread #2: 12*23
+Child thread #10: 95*44
+Child thread #17: 81*1
+Child thread #8: 35*1
+Child thread #18: 80*47
+Child thread #4: 80*41
+Child thread #11: 80*23
+Child thread #19: 80*44
+Child thread #1: 12*41
+Child thread #20: 80*1
+Child thread #21: 9*47
+Child thread #5: 80*23
+Child thread #22: 9*44
+Child thread #13: 18*41
+Child thread #14: 18*23
+Child thread #3: 52*9
+Child thread #23: 9*1
+Child thread #24: 80*47
+Child thread #15: 68*29
+Child thread #0: 12*29
+Child thread #12: 75*9
+Child thread #25: 80*44
+Child thread #26: 80*1
+Child thread #27: 18*47
+Child thread #28: 18*44
+Child thread #29: 18*1
+Child thread #30: 68*47
+Child thread #31: 68*44
+Child thread #32: 68*1
+Child thread #6: 9*29
+Child thread #7: 9*41
+Child thread #16: 68*41
+Child thread #9: 80*29
+Child thread #2: 21*55
+Child thread #10: 80*41
+Child thread #17: 68*23
+Child thread #8: 9*23
+Child thread #18: 52*29
+Child thread #4: 52*44
+Child thread #11: 70*55
+Child thread #19: 52*41
+Child thread #1: 21*44
+Child thread #20: 52*23
+Child thread #21: 62*29
+Child thread #5: 52*55
+Child thread #22: 62*41
+Child thread #13: 75*44
+Child thread #14: 75*55
+Child thread #3: 51*57
+Child thread #23: 62*23
+Child thread #24: 70*29
+Child thread #15: 31*9
+Child thread #0: 21*9
+Child thread #12: 40*57
+Child thread #25: 70*41
+Child thread #26: 70*23
+Child thread #27: 75*29
+Child thread #28: 75*41
+Child thread #29: 75*23
+Child thread #30: 31*29
+Child thread #31: 31*41
+Child thread #32: 31*23
+Child thread #6: 62*9
+Child thread #7: 62*44
+Child thread #16: 31*44
+Child thread #9: 70*9
+Child thread #2: 37*75
+Child thread #10: 70*44
+Child thread #17: 31*55
+Child thread #8: 62*55
+Child thread #18: 51*9
+Child thread #4: 51*18
+Child thread #11: 3*75
+Child thread #19: 51*44
+Child thread #1: 37*18
+Child thread #20: 51*55
+Child thread #21: 56*9
+Child thread #5: 51*75
+Child thread #22: 56*44
+Child thread #13: 40*18
+Child thread #14: 40*75
+Child thread #3: 49*40
+Child thread #23: 56*55
+Child thread #24: 3*9
+Child thread #15: 21*57
+Child thread #0: 37*57
+Child thread #12: 93*40
+Child thread #25: 3*44
+Child thread #26: 3*55
+Child thread #27: 40*9
+Child thread #28: 40*44
+Child thread #29: 40*55
+Child thread #30: 81*9
+Child thread #31: 81*44
+Child thread #32: 81*55
+Child thread #6: 56*57
+Child thread #7: 56*18
+Child thread #16: 21*18
+Child thread #9: 3*57
+Child thread #2: 27*90
+Child thread #10: 3*18
+Child thread #17: 21*75
+Child thread #8: 56*75
+Child thread #18: 49*57
+Child thread #4: 49*93
+Child thread #11: 76*90
+Child thread #19: 49*18
+Child thread #1: 27*93
+Child thread #20: 49*75
+Child thread #21: 38*57
+Child thread #5: 49*90
+Child thread #22: 38*18
+Child thread #13: 93*93
+Child thread #14: 93*90
+Child thread #3: 31*90
+Child thread #23: 38*75
+Child thread #24: 76*57
+Child thread #15: 37*40
+Child thread #0: 27*40
+Child thread #12: 90*90
+Child thread #25: 76*18
+Child thread #26: 76*75
+Child thread #27: 93*57
+Child thread #28: 93*18
+Child thread #29: 93*75
+Child thread #30: 9*57
+Child thread #31: 9*18
+Child thread #32: 9*75
+Child thread #6: 38*40
+Child thread #7: 38*93
+Child thread #16: 37*93
+Child thread #9: 76*40
+Child thread #2: 4*95
+Child thread #10: 76*93
+Child thread #17: 37*90
+Child thread #8: 38*90
+Child thread #18: 31*40
+Child thread #4: 31*36
+Child thread #11: 88*95
+Child thread #19: 31*93
+Child thread #1: 4*36
+Child thread #20: 31*90
+Child thread #21: 22*40
+Child thread #5: 31*95
+Child thread #22: 22*93
+Child thread #13: 90*36
+Child thread #14: 90*95
+Child thread #3: 28*92
+Child thread #23: 22*90
+Child thread #24: 88*40
+Child thread #15: 27*90
+Child thread #0: 4*90
+Child thread #12: 90*92
+Child thread #25: 88*93
+Child thread #26: 88*90
+Child thread #27: 90*40
+Child thread #28: 90*93
+Child thread #29: 90*90
+Child thread #30: 95*40
+Child thread #31: 95*93
+Child thread #32: 95*90
+Child thread #7: 22*36
+Child thread #6: 22*90
+Child thread #16: 27*36
+Child thread #9: 88*90
+Child thread #2: 79*0
+Child thread #10: 88*36
+Child thread #17: 27*95
+Child thread #8: 22*95
+Child thread #18: 28*90
+Child thread #4: 28*56
+Child thread #11: 58*0
+Child thread #19: 28*36
+Child thread #1: 79*56
+Child thread #20: 28*95
+Child thread #21: 76*90
+Child thread #5: 28*0
+Child thread #22: 76*36
+Child thread #13: 90*56
+Child thread #14: 90*0
+Child thread #3: 3*8
+Child thread #23: 76*95
+Child thread #24: 58*90
+Child thread #15: 4*92
+Child thread #0: 79*92
+Child thread #12: 36*8
+Child thread #25: 58*36
+Child thread #26: 58*95
+Child thread #27: 90*90
+Child thread #28: 90*36
+Child thread #29: 90*95
+Child thread #30: 80*90
+Child thread #31: 80*36
+Child thread #32: 80*95
+Child thread #7: 76*56
+Child thread #6: 76*92
+Child thread #16: 4*56
+Child thread #9: 58*92
+Child thread #2: 13*98
+Child thread #10: 58*56
+Child thread #17: 4*0
+Child thread #8: 76*0
+Child thread #18: 3*92
+Child thread #4: 3*39
+Child thread #11: 45*98
+Child thread #19: 3*56
+Child thread #1: 13*39
+Child thread #20: 3*0
+Child thread #21: 33*92
+Child thread #5: 3*98
+Child thread #22: 33*56
+Child thread #13: 36*39
+Child thread #14: 36*98
+Child thread #3: 70*67
+Child thread #23: 33*0
+Child thread #24: 45*92
+Child thread #15: 79*8
+Child thread #0: 13*8
+Child thread #12: 95*67
+Child thread #25: 45*56
+Child thread #26: 45*0
+Child thread #27: 36*92
+Child thread #28: 36*56
+Child thread #29: 36*0
+Child thread #30: 70*92
+Child thread #31: 70*56
+Child thread #32: 70*0
+Child thread #7: 33*39
+Child thread #6: 33*8
+Child thread #16: 79*39
+Child thread #9: 45*8
+Child thread #2: 5*6
+Child thread #10: 45*39
+Child thread #17: 79*98
+Child thread #8: 33*98
+Child thread #18: 70*8
+Child thread #4: 70*25
+Child thread #11: 38*6
+Child thread #19: 70*39
+Child thread #1: 5*25
+Child thread #20: 70*98
+Child thread #21: 65*8
+Child thread #5: 70*6
+Child thread #22: 65*39
+Child thread #13: 95*25
+Child thread #14: 95*6
+Child thread #3: 75*6
+Child thread #23: 65*98
+Child thread #24: 38*8
+Child thread #15: 13*67
+Child thread #0: 5*67
+Child thread #12: 92*6
+Child thread #25: 38*39
+Child thread #26: 38*98
+Child thread #27: 95*8
+Child thread #28: 95*39
+Child thread #29: 95*98
+Child thread #30: 3*8
+Child thread #31: 3*39
+Child thread #32: 3*98
+Child thread #7: 65*25
+Child thread #6: 65*67
+Child thread #16: 13*25
+Child thread #9: 38*67
+Child thread #2: 71*81
+Child thread #10: 38*25
+Child thread #17: 13*6
+Child thread #8: 65*6
+Child thread #18: 75*67
+Child thread #4: 75*44
+Child thread #11: 34*81
+Child thread #19: 75*25
+Child thread #1: 71*44
+Child thread #20: 75*6
+Child thread #21: 99*67
+Child thread #5: 75*81
+Child thread #22: 99*25
+Child thread #13: 92*44
+Child thread #14: 92*81
+Child thread #3: 16*68
+Child thread #23: 99*6
+Child thread #24: 34*67
+Child thread #15: 5*6
+Child thread #0: 71*6
+Child thread #12: 56*68
+Child thread #25: 34*25
+Child thread #26: 34*6
+Child thread #27: 92*67
+Child thread #28: 92*25
+Child thread #29: 92*6
+Child thread #30: 76*67
+Child thread #31: 76*25
+Child thread #32: 76*6
+Child thread #7: 99*44
+Child thread #6: 99*6
+Child thread #16: 5*44
+Child thread #9: 34*6
+Child thread #2: 63*21
+Child thread #10: 34*44
+Child thread #17: 5*81
+Child thread #8: 99*81
+Child thread #18: 16*6
+Child thread #4: 16*31
+Child thread #11: 1*21
+Child thread #19: 16*44
+Child thread #1: 63*31
+Child thread #20: 16*81
+Child thread #21: 43*6
+Child thread #5: 16*21
+Child thread #22: 43*44
+Child thread #13: 56*31
+Child thread #14: 56*21
+Child thread #3: 98*37
+Child thread #23: 43*81
+Child thread #24: 1*6
+Child thread #15: 71*68
+Child thread #0: 63*68
+Child thread #12: 0*37
+Child thread #25: 1*44
+Child thread #26: 1*81
+Child thread #27: 56*6
+Child thread #28: 56*44
+Child thread #29: 56*81
+Child thread #30: 88*6
+Child thread #31: 88*44
+Child thread #32: 88*81
+Child thread #7: 43*31
+Child thread #6: 43*68
+Child thread #16: 71*31
+Child thread #9: 1*68
+Child thread #2: 9*4
+Child thread #10: 1*31
+Child thread #17: 71*21
+Child thread #8: 43*21
+Child thread #18: 98*68
+Child thread #4: 98*27
+Child thread #11: 47*4
+Child thread #19: 98*31
+Child thread #1: 9*27
+Child thread #20: 98*21
+Child thread #21: 59*68
+Child thread #5: 98*4
+Child thread #22: 59*31
+Child thread #13: 0*27
+Child thread #14: 0*4
+Child thread #3: done
+Child thread #23: 59*21
+Child thread #24: 47*68
+Child thread #15: 63*37
+Child thread #0: 9*37
+Child thread #12: done
+Child thread #25: 47*31
+Child thread #26: 47*21
+Child thread #27: 0*68
+Child thread #28: 0*31
+Child thread #29: 0*21
+Child thread #30: 58*68
+Child thread #31: 58*31
+Child thread #32: 58*21
+Child thread #7: 59*27
+Child thread #6: 59*37
+Child thread #16: 63*27
+Child thread #9: 47*37
+Child thread #2: done
+Child thread #10: 47*27
+Child thread #17: 63*4
+Child thread #8: 59*4
+Child thread #18: 57*37
+Child thread #4: done
+Child thread #11: done
+Child thread #19: 57*27
+Child thread #1: done
+Child thread #20: 57*4
+Child thread #21: 39*37
+Child thread #5: done
+Child thread #22: 39*27
+Child thread #13: done
+Child thread #14: done
+Child thread #23: 39*4
+Child thread #24: 44*37
+Child thread #15: done
+Child thread #0: done
+Child thread #25: 44*27
+Child thread #26: 44*4
+Child thread #27: 8*37
+Child thread #28: 8*27
+Child thread #29: 8*4
+Child thread #30: 45*37
+Child thread #31: 45*27
+Child thread #32: 45*4
+Child thread #7: done
+Child thread #6: done
+Child thread #16: done
+Child thread #9: done
+Child thread #10: done
+Child thread #17: done
+Child thread #8: done
+Child thread #18: done
+Child thread #19: done
+Child thread #20: done
+Child thread #21: done
+Child thread #22: done
+Child thread #23: done
+Child thread #24: done
+Child thread #25: done
+Child thread #26: done
+Child thread #27: done
+Child thread #28: done
+Child thread #29: done
+Child thread #30: done
+Child thread #31: done
+Child thread #32: done
+
+Matrix c(11*3) is
+44587 47018 45851 
+45096 44257 41206 
+44893 45264 50993 
+44769 47249 43010 
+47502 46757 49749 
+30204 36744 32082 
+47315 42408 42474 
+44887 51016 49707 
+46018 40857 43781 
+44774 41291 52015 
+50110 52537 44578 
+
+

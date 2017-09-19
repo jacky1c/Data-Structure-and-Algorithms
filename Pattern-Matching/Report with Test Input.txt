@@ -1,0 +1,61 @@
+--------------------
+string textFileName = "NoPattern.txt";
+string patternFileName = "TestPattern.txt";
+--------------------
+ab-> NOT FOUND!
+	number of comparisons = 86
+
+Program ended with exit code: 0
+
+--------------------
+string textFileName = "PatternAtBeginning.txt";
+string patternFileName = "TestPattern.txt";
+--------------------
+ab-> FOUND at
+line=1, 1th character
+	number of comparisons = 24
+
+Program ended with exit code: 0
+
+--------------------
+string textFileName = "PatternInMiddle.txt";
+string patternFileName = "TestPattern.txt";
+--------------------
+ab-> FOUND at
+line=2, 4th character
+	number of comparisons = 25
+
+Program ended with exit code: 0
+
+--------------------
+string textFileName = "PatternInMiddle2.txt";
+string patternFileName = "TestPattern.txt";
+--------------------
+ab-> FOUND at
+line=5, 2th character
+	number of comparisons = 29
+
+Program ended with exit code: 0
+
+--------------------
+string textFileName = "PatternAtTheEnd.txt";
+string patternFileName = "TestPattern.txt";
+--------------------
+ab-> FOUND at
+line=5, 3th character
+	number of comparisons = 50
+
+Program ended with exit code: 0
+
+--------------------
+string textFileName = "MultiplePattern.txt";
+string patternFileName = "TestPattern.txt";
+--------------------
+ab-> FOUND at
+line=1, 1th character
+line=2, 7th character
+line=3, 5th character
+	number of comparisons = 33
+
+Program ended with exit code: 0
+

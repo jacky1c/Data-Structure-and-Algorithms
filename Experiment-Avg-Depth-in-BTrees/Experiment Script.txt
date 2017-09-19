@@ -1,0 +1,115 @@
+==================Binary Tree==================
+Randomly generate a binary tree with 8 nodes and print it out in order to show my program works:
+
+                         1\
+                                 1
+                 0/
+         1<
+                         0
+                 1<
+                                 1
+                         0/
+
+Total number of nodes is: 8
+Total depth is: 14
+Number of nodes: 8
+Number of trees: 16
+Print progress frequency: 1
+................
+Average depth of 16 trees is: 1.6875
+
+Number of nodes: 64
+Number of trees: 128
+Print progress frequency: 8
+................
+Average depth of 128 trees is: 4.39063
+
+Number of nodes: 512
+Number of trees: 1024
+Print progress frequency: 64
+................
+Average depth of 1024 trees is: 7.30176
+
+Number of nodes: 4096
+Number of trees: 8192
+Print progress frequency: 512
+................
+Average depth of 8192 trees is: 10.2842
+
+==================Binary Search Tree==================
+Randomly generate a binary tree with 8 nodes and print it out in order to show my program works:
+
+                         4390\
+                                 3540
+                 3449/
+         3324<
+                 3147\
+                                         2976
+                                 2804/
+                         1910/
+
+Total number of nodes is: 8
+Total depth is: 16
+Number of nodes: 8
+Number of trees: 16
+Print progress frequency: 1
+................
+Average depth of 16 trees is: 2.1875
+
+Number of nodes: 64
+Number of trees: 128
+Print progress frequency: 8
+................
+Average depth of 128 trees is: 5.65625
+
+Number of nodes: 512
+Number of trees: 1024
+Print progress frequency: 64
+................
+Average depth of 1024 trees is: 9.69531
+
+Number of nodes: 4096
+Number of trees: 8192
+Print progress frequency: 512
+................
+Average depth of 8192 trees is: 13.7904
+
+==================AVL Tree==================
+Randomly generate a binary tree with 8 nodes and print it out in order to show my program works:
+
+                         4483
+                 3268<
+                         3224
+         2819<
+                         2786
+                 2625<
+                         1130\
+                                 633
+
+Total number of nodes is: 8
+Total depth is: 13
+Number of nodes: 8
+Number of trees: 16
+Print progress frequency: 1
+................
+Average depth of 16 trees is: 1.6875
+
+Number of nodes: 64
+Number of trees: 128
+Print progress frequency: 8
+................
+Average depth of 128 trees is: 4.26563
+
+Number of nodes: 512
+Number of trees: 1024
+Print progress frequency: 64
+................
+Average depth of 1024 trees is: 7.22656
+
+Number of nodes: 4096
+Number of trees: 8192
+Print progress frequency: 512
+................
+Average depth of 8192 trees is: 10.2617
+
+Press any key to continue...
